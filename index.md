@@ -3,11 +3,6 @@ layout: default
 title: Student Blog
 ---
 
-
-# Welcome to Grace's Website!
-
-
-
 ### things that make me happy
 1. Really straight rows of trees
 2. The sound of rain
