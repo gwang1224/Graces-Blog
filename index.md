@@ -4,12 +4,30 @@ title: Student Blog
 ---
 
 
-## Build you Home Page here 
-This is about your journey. Start now!!!
+# Welcome to Grace's Website!
 
-## Overview of Hacks, Study and Tangibles
-Blogging in GitHub pages is a way to learn and code at the same time. 
 
-- Plans, Lists, [Scrum Boards](https://clickup.com/blog/scrum-board/) help you to track key events, show progress and record time.  Effort is a big part of your class grade.  Show plans and time spent!
-- [Hacks(Todo)](https://levelup.gitconnected.com/six-ultimate-daily-hacks-for-every-programmer-60f5f10feae) enable you to stay in focus with key requirements of the class.  Each Hack will produce Tangibles.
-- Tangibles or [Tangible Artifacts](https://en.wikipedia.org/wiki/Artifact_(software_development)) are things you accumulate as a learner and coder. 
+
+### things that make me happy
+1. Really straight rows of trees
+2. The sound of rain
+3. Eating
+
+#### my interests
+![](/images/interests.png)
+
+#### my favorite music: tswizzle!
+![](/images/ts.jpg)
+
+#### foods i enjoy
+![](/images/food.png)
+
+## ✨ My Schedule ✨
+
+| Period | Class | Teacher |
+| --- | --- | --- |
+| 1 | AP Literature ✏️ | Hall |
+| 2 | AP Statistics ➕ | Edelstein |
+| 3 | AP Computer Science A 🖥️ | Morty |
+| 4 | AP Government 🏛 | Dupas |
+| 5 | Off Roll | 💪💪💪 |
