@@ -40,3 +40,66 @@ nano checktools.sh
 ./checktools.sh
 
 ```
+
+checking for tools:
+1. homebrew
+2. python
+3. ruby
+4. github
+5. jupyter notebook
+6. vscode
+7. docker
+
+```bash
+echo "Checking installed tools:"
+
+# Check for Homebrew
+if command -v brew &>/dev/null; then
+    echo "Homebrew is installed."
+else
+    echo "Homebrew is not installed."
+fi
+
+# Check for Python
+if command -v python3 &>/dev/null; then
+    echo "Python is installed."
+else
+    echo "Python is not installed."
+fi
+
+# Check for Ruby
+if command -v ruby &>/dev/null; then
+    echo "Ruby is installed."
+else
+    echo "Ruby is not installed."
+fi
+
+# Check for GitHub CLI
+if command -v gh &>/dev/null; then
+    echo "GitHub CLI is installed."
+else
+    echo "GitHub CLI is not installed."
+fi
+
+# Check for Jupyter Notebook
+if command -v jupyter &>/dev/null; then
+    echo "Jupyter Notebook is installed."
+else
+    echo "Jupyter Notebook is not installed."
+fi
+
+# Check for Visual Studio Code
+if command -v code &>/dev/null; then
+    echo "Visual Studio Code is installed."
+else
+    echo "Visual Studio Code is not installed."
+fi
+
+# Check for Docker
+if command -v docker &>/dev/null; then
+    echo "Docker is installed."
+else
+    echo "Docker is not installed."
+fi
+
+```
