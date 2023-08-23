@@ -26,7 +26,6 @@ description:
 | `touch` | Used to create new empty files or update the access and modification timestamps of existing files. |
 
 ```bash
-
 #creates new file
 touch checktools.sh
 
@@ -41,7 +40,7 @@ nano checktools.sh
 
 ```
 
-![](/images/tool-check.png)
+![](images/tool-check.png)
 
 checking for tools:
 1. homebrew
