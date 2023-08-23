@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Linux Shell and Bash
+title: Week 1 - Linux Shell and Bash
 description:
 ---
 
