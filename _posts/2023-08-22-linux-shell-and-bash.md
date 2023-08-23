@@ -4,6 +4,7 @@ title: Linux Shell and Bash
 description:
 ---
 
+
 | Linux Command | What it does |
 |--|--|
 | `ls` | Lists the files and directories in the current directory.|
@@ -22,23 +23,20 @@ description:
 | `ssh`| Establishes a secure shell connection to a remote server.|
 | `wget`| Downloads files from the internet using various protocols.|
 | `tar`| Used to create, view, and extract files from tar archives.|
+| `touch` | Used to create new empty files or update the access and modification timestamps of existing files. |
 
+```bash
 
-```
-#!/bin/bash
+#creates new file
+touch checktools.sh
 
-# Check for Homebrew
-if command -v brew &>/dev/null; then
-    echo "Homebrew is installed."
-else
-    echo "Homebrew is not installed."
-fi
+#changes permissions, adds executable
+chmod +x checktools.sh
 
-# Check for Python
-if command -v python &>/dev/null; then
-    echo "Python is installed."
-else
-    echo "Python is not installed."
-fi
+#edits checktools files
+nano checktools.sh 
+
+#runs tool check
+./checktools.sh
 
 ```

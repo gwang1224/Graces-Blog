@@ -8,6 +8,7 @@ title: Student Blog
 ## Week 0: Collaboration!
 
 My bestie partner Rachit!
+
 ![](/images/rachit.png)
 
 Rachit helped me with numerous problems this week including:
