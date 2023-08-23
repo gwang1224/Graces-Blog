@@ -40,7 +40,7 @@ nano checktools.sh
 
 ```
 
-![](images/tool-check.png)
+<img src="/Graces-Blog/images/tool-check.png">
 
 checking for tools:
 1. homebrew
