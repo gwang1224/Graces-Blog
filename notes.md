@@ -2,7 +2,3 @@
 layout: default
 title: Student Blog
 ---
-
-# Lab Notebook
-
-## Week 0: 
