@@ -5,7 +5,7 @@ title: Student Blog
 
 # Lab Notebook
 
-## Week 0: Collaboration & Tools
+## Week 0/1: Collaboration & Tools
 
 My bestie partner Rachit!
 
