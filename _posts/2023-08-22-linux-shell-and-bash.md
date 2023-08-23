@@ -41,6 +41,8 @@ nano checktools.sh
 
 ```
 
+![](/images/tool-check.png)
+
 checking for tools:
 1. homebrew
 2. python
