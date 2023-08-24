@@ -3,18 +3,11 @@ layout: default
 title: Student Blog
 ---
 
-# Lab Notebook
+# Lab Notebook 📝
 
-## Week 0/1: Collaboration & Tools
+| Week | Links | Description |
+| -- | -- |
+| 0 | [Collaboration](/Graces-Blog/2023/08/22/collaboration.html)| Teamwork w/ Rachit |
+| 1 | [Tools](/Graces-Blog/2023/08/22/linux-shell-and-bash-copy.html)| Basic linux commands and tool check|
 
-My bestie partner Rachit!
 
-![](/images/rachit.png)
-
-Rachit helped me with numerous problems this week including:
-- My website suddenly lost all the hard work and styles I put into it.
-- Problem where the deployed github pages server didn't maintain the theme, although the theme works in local server
-    - Rachit fixed this with the config.yml folder
-- Rachit keeps calling me and making me work and he threatened to hack me
-
-[Tools](/_posts/2023-08-22-linux-shell-and-bash.md)

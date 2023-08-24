@@ -1,9 +1,10 @@
 ---
-layout: post
+layout: default
 title: Week 1 - Linux Shell and Bash
-description:
+description: Introduction to linux, what linux commands mean, and using bash to complete tool check
 ---
 
+# Week 1 - Linux Shell and Bash
 
 | Linux Command | What it does |
 |--|--|
