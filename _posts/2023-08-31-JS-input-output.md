@@ -1,5 +1,5 @@
 ---
 layout: default
-title: JS Input and Output
+title: Week 2 - JS Input and Output
 description: 
 ---

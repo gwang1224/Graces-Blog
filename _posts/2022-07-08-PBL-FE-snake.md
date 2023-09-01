@@ -2,7 +2,10 @@
 title: Classic Snake Game
 layout: default
 description: A pretty advanced use of JavaScript building classic snake game using menu controls, key events, snake simulation and timers.  
+courses: { labnotebook: {week: 1} }
+type: hacks
 ---
+## Week 1: Classic Snake Game
 
 <style>
 

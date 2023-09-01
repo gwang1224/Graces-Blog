@@ -1,9 +1,7 @@
 ---
 layout: default
-title: Java Hello
+title: Week 1 - Java Hello
 description: A progressive journey through Java basics starting with the classic "Hello, World!" example.
-courses: {'labnotebook': {'week': 1}}
-type: hacks
 ---
 
 ### [Object Oriented Programming](https://youtu.be/Wok4Xw_5cyY) 

@@ -1,7 +1,9 @@
 ---
 layout: default
-title: Week 0 - Collaboration
+title: Collaboration
 description: Forming partners and what me and Rachit accomplished
+courses: { labnotebook: {week: 0} }
+type: hacks
 ---
 ## Week 0: Collaboration & Tools
 

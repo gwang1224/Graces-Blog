@@ -1,7 +1,9 @@
 ---
 layout: default
-title: Week 1 - Linux Shell and Bash
+title: Linux Shell and Bash
 description: Introduction to linux, what linux commands mean, and using bash to complete tool check
+courses: { labnotebook: {week: 1} }
+type: hacks
 ---
 
 # Week 1 - Linux Shell and Bash

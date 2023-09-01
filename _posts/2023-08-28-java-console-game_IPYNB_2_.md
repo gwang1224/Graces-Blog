@@ -2,7 +2,7 @@
 layout: default
 title: Java Console Game
 description: A progressive journey through Java basics starting with the classic "Hello, World!" example.
-courses: {'labnotebook': {'week': 1}}
+courses: { labnotebook: {week: 1} }
 type: hacks
 ---
 
