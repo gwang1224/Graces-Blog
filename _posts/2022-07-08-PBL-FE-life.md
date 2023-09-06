@@ -3,7 +3,7 @@ title: Game of Life
 layout: default
 description: A remix of Conway's game of life using timer, onclick and algorithms.
 courses: { labnotebook: {week: 1} }
-type: hacks
+type: notes
 ---
 ## Week 1: Game of Life
 

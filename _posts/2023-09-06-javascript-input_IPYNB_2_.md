@@ -1,9 +1,8 @@
 ---
 title: JS Input
 description: A Tech Talk on user inputs using Javascript. The grade calculator takes multiple values and does a calculation on them. User input can be useful for other projects, such as being used as a query.
-courses: {'csse': {'week': 4}, 'csp': {'week': 3, 'categories': ['3.A', '5.B']}, 'csa': {'week': 2}}
-categories: ['C3.0', 'C3.1', 'C4.1']
-type: ccc
+courses: {'labnotebook': {'week': 2}}
+type: notes
 ---
 
 ## HTML
