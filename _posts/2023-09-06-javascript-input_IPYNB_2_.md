@@ -1,4 +1,5 @@
 ---
+layout: default
 title: JS Input
 description: A Tech Talk on user inputs using Javascript. The grade calculator takes multiple values and does a calculation on them. User input can be useful for other projects, such as being used as a query.
 courses: {'labnotebook': {'week': 2}}
@@ -214,8 +215,3 @@ newInputLine(0);
 </script>
 
 
-
-
-```python
-
-```
