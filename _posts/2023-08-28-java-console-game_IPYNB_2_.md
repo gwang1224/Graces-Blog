@@ -2,11 +2,11 @@
 layout: default
 title: Java Console Game
 description: A progressive journey through Java basics starting with the classic "Hello, World!" example.
-courses: { labnotebook: {week: 1} }
+courses: {'labnotebook': {'week': 1}}
 type: hacks
 ---
 
-```Java
+```java
 import java.util.Scanner; //library for user input
 import java.lang.Math; //library for random numbers
 ```
@@ -14,7 +14,7 @@ import java.lang.Math; //library for random numbers
 ## Rock Paper Scissors
 
 
-```Java
+```java
 public class RockPaperScissors{ // Unit 5
     public static void main(String[] args) { // Unit 9
             System.out.println("Rock Paper Scissors");
@@ -84,7 +84,7 @@ RockPaperScissors.main(null);
 ## Higher or Lower
 
 
-```Java
+```java
 public class HorL {
     public static void main(String[] args) {
         System.out.println("Higher or Lower");
@@ -128,7 +128,7 @@ HorL.main(null);
 ## TicTacToe
 
 
-```Java
+```java
 public class TicTacToe {
     public static void main(String[] args) {
         System.out.println("Tic Tac Toe");
@@ -379,7 +379,7 @@ TicTacToe.main(null);
 In order to simplify the logic of the TicTacToe game, we could make the game more simple by creating function for duplicate tasks. For example, there are duplicated sections for player 1 and player 2's turns. These can be consolidated using one function that could be called whenever a player needs to make a turn. Moreover, another function can be created that will print out the TicTacToe board. In the current code, the same code is used to print out the board 4 times. The code can thus be shortened with a function.
 
 
-```Java
+```java
 //UNIT 5: ANATOMY OF A CLASS
 public class TicTacToe2 {
     public static void main(String[] args) {
@@ -503,7 +503,7 @@ TicTacToe2.main(null);
 ## Creating own game
 
 
-```Java
+```java
 import java.util.Scanner;
 import java.util.Random;
 
