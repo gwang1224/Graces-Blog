@@ -10,7 +10,7 @@ type: hacks
 ### Markdown Table (Taylor Swift)
 [markdown cheat sheet](https://www.markdownguide.org/extended-syntax/#tables)
 
-By Album List
+## By Album List
 
 | Album | Release Year | Owned by Taylor | Favorite Song | Tracks |
 |------|-------|------|-------|-------|
@@ -25,7 +25,7 @@ By Album List
 |Evermore|2020|Yes|Gold Rush|15|
 |Midnights|2022|Yes|The Great War|20|
 
-By Chronology
+## By Chronology
 
 | Album | Release Year | Owned by Taylor | Favorite Song | Tracks |
 |------|-------|------|-------|-------|
@@ -230,9 +230,6 @@ By Chronology
 
 
 ## HTML Table in Markdown Cell with JavaScript jquery
-JavaScript is a programming language that works with HTML data, CSS helps to style that data.  In this example, we are using JavaScript and CSS that was developed by others (3rd party).  Addithing the 3rd party code makes the table interactive.
-- Look at the href and src on lines inside of the lines in `<head>` tags.  This is adding code to our page from others.
-- Observe the `<script>` tags at the bottom of the page.  This is generating the interactive table, from the third party code, using the data `<table id="demo">` from the `<body>`.  
 
 <!-- Head contains information to Support the Document -->
 <head>
@@ -337,10 +334,18 @@ JavaScript is a programming language that works with HTML data, CSS helps to sty
 
 
 ## Hacks
-This lesson teaches you about tables.  In this hack, it is important that you analze the difference in the styles of output shown.  
-- Make your own tables, with data according to your interests.
-- Describe a benefit of a markdown table.
-- Try to Style the HTML table using w3schools.
+
+- Benefits of a markdown table
+    - Easy to create and read
+    - Easy to customize and edit
+    - Consistency
+    - Accessibility
+    - Used by Github
+
 - Describe the difference between HTML and JavaScript.
+    - HTML is a markup language mostly used in frontend to present content on the web. The code is static and is mainly used for aesthetics and organization
+    - JavaScript can also be used on frontend but it includes user responsive features that interacts with the users of a website. 
+
 - Describe a benefit of a table that uses JavaScript.
+    - More interactive features can be implemented on tables. With JavaScript, you can filter, sort, and search the data.
 
