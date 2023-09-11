@@ -1,8 +1,8 @@
 ---
-layout: default
 title: JS Output w/ jquery
 toc: True
 description: A Tech Talk on outputs using HTML and Javascript. This uses jquery for easy onscreen interaction and filtering.
+layout: default
 courses: {'labnotebook': {'week': 2}}
 type: hacks
 ---
