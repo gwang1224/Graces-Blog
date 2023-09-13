@@ -42,7 +42,6 @@ Load all posts with site
 <table>
   <tr>
     <th>Week</th>
-    <th>Plans</th>
     <th>Notes</th>
     <th>Hacks</th>
   </tr>
@@ -60,7 +59,6 @@ Load all posts with site
   {% assign deli = sym | compact %} 
 
   {% for index in (start..end) -%}
-    {% assign plans = null | compact %}
     {% assign hacks = null | compact %}
     {% assign notes = null | compact %}
 
@@ -86,10 +84,7 @@ Load all posts with site
   {%comment%} 
   <!-- organizing blogs by type -->
   {%endcomment%}
-          {% if post.type == "plans" %} 
-              {% assign plans = plans | unshift: title %}
-              {% assign plans = plans | unshift: url %}
-          {% elsif post.type == "notes" %}
+          {% if post.type == "notes" %}
               {% assign notes = notes | unshift: title %}
               {% assign notes = notes | unshift: url %} 
           {% elsif post.type == "hacks" %}
@@ -107,7 +102,7 @@ Load all posts with site
   {%comment%} 
   <!-- ordering units and inserting column delimiters -->
   {%endcomment%}
-  {% assign units = units | concat:plans | concat:deli | concat:notes| concat:deli | concat:hacks | concat:deli  %}
+  {% assign units = units | concat:notes| concat:deli | concat:hacks | concat:deli  %}
 
   {%comment%} 
   <!-- This Loop is maximum iterationss, since elements are pairs it will decrement a extra times at the end -->
