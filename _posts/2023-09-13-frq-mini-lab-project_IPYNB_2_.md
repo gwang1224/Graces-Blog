@@ -6,7 +6,7 @@ courses: {'labnotebook': {'week': 4}}
 type: hacks
 ---
 
-[AP Computer Science A College Board](https://apcentral.collegeboard.org/media/pdf/ap23-frq-comp-sci-a.pdf)
+[AP Computer Science A 2023 FRQ](https://apcentral.collegeboard.org/media/pdf/ap23-frq-comp-sci-a.pdf)
 
 ## FRQ 2
 
@@ -40,12 +40,14 @@ After reading FRQ, we are tasked with creating a sign with a specific number of 
 
 - **Testing**: Create instances of the `Sign` class with different parameters and test the `numberOfLines` and `getLines` methods to ensure correct behavior.
 
+![Diagram](https://cdn.discordapp.com/attachments/1010780182476496908/1154263074849685534/frq_2_diagram_2.png)
+
 
 ```Java
 // STEP 1: Create class
 public class Sign
 {
-    // STEP 1: Create class
+    // STEP 2: Create variables
     private String m;
     private int w;
 
@@ -180,3 +182,27 @@ System.out.println(x);
     AB;_C;D_;EF
     4
 
+
+Here is the information you provided formatted as a Markdown table:
+
+| Point | Requirement | Responses to Earn Point | Responses Not to Earn Point | Points |
+|-------|-------------|-------------------------|----------------------------|--------|
+| 1     | Declares class header: class Sign | Declare the class as public | Declare the class as something other than public | 1 point |
+| 2     | Declares appropriate private instance variable(s) and constructor | Initialize instance variables using appropriate parameters | Declare the variable outside the class, or in the class within a method or constructor | 1 point |
+| 3     | Declares constructor header: Sign(String ___, int ___) | Calculate values in the constructor that are returned by other methods (correctly or incorrectly), as long as the parameter types are correct | Declare the constructor as something other than public | 1/1 |
+| 4     | Declares method headers: - public int numberOfLines() - public String getLines() | Omit either method | Omit public or declare the method as something other than public | 1/1 |
+| 5     | numberOfLines divides the message length by the line width | Perform the division in a method other than numberOfLines | Perform the division without using the division operator by counting line-widthsized portions of the message or by counting lines produced by the line-delimiting algorithm; Incorrectly account for the final line; Use a method name inconsistent with the examples, as long as it is recognizably equivalent | 1/1 |
+| 6     | numberOfLines returns appropriate value (algorithm) | Perform the return value calculation in the constructor; Return a different number of lines than getLines produces, as long as the number returned is the correct number for the message; return an incorrect number of lines for the message, as long as the number returned is exactly the number of lines produced by getLines; use a method name inconsistent with the examples, as long as it is recognizably equivalent  | incorrectly account for the final line | 1/1 |
+| 7     | getLines returns null appropriately | Identify null case in a method other than getLines; Use an invalid call to length or == in guard for null return; Use a method name inconsistent with the examples, as long as it is recognizably equivalent | Guard the return with incorrect logic | 1/1 |
+| 8     | Calls substring and length (or equivalent) on String objects | Calculate substring parameter values incorrectly; Call substring and/or length from a method other than getLines; Use a method name inconsistent with the examples, as long as it is recognizably equivalent | Fail to call substring or length on String objects; Call substring or length with an incorrect number of parameters, with a parameter of an incorrect type, or with incorrectly ordered parameters, anywhere in the class | 1/1 |
+| 9     | getLines constructs the delimited sign output appropriately (algorithm) | Call substring and/or length incorrectly; Fail to return the constructed String (return not assessed); Handle the empty string /null case incorrectly; Construct the output in the constructor; Use a method name inconsistent with the examples, as long as it is recognizably equivalent | End the constructed output with a ; or extraneous spaces; Modify the contents of message or width after they have been initialized (no additional –1 penalty) | 1/1 |
+
+
+**Score: 9/9**
+
+## Major Takeaways
+
+- Make a diagram of the class, variables, and methods
+- Read descriptions of methods carefully as they tell you exactly what to do
+- be careful of null outputs (make sure to include them!)
+- Use sample code execution sequence to test code by mentally inputting them into your code
