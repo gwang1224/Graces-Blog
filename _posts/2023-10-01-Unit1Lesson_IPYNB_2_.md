@@ -1,7 +1,7 @@
 ---
 toc: True
 comments: True
-layout: post
+layout: default
 title: Unit 1 Student Teaching
 description: the lesson for the unit 1
 permalink: /lesson
