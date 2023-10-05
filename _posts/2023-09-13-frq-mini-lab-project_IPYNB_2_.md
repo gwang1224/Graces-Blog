@@ -43,7 +43,7 @@ After reading FRQ, we are tasked with creating a sign with a specific number of 
 ![Diagram](https://cdn.discordapp.com/attachments/1010780182476496908/1154263074849685534/frq_2_diagram_2.png)
 
 
-```Java
+```java
 // STEP 1: Create class
 public class Sign
 {
@@ -106,7 +106,7 @@ public class Sign
 Using the table provided by College Board, we test the code by instantiating class Sign and providing different parameters to see if the method call return value is expected.
 
 
-```Java
+```java
 String str;
 int x;
 
@@ -123,7 +123,7 @@ System.out.println(x);
 
 
 
-```Java
+```java
 Sign sign2 = new Sign ("ABCD", 10);
 
 x = sign2.numberOfLines();
@@ -138,7 +138,7 @@ System.out.println(x);
 
 
 
-```Java
+```java
 Sign sign3 = new Sign("ABCDEF",2);
 
 x = sign3.numberOfLines();
@@ -154,7 +154,7 @@ System.out.println(x);
 
 
 
-```Java
+```java
 Sign sign4 = new Sign("",4);
 
 x = sign4.numberOfLines();
@@ -169,7 +169,7 @@ System.out.println(x);
 
 
 
-```Java
+```java
 Sign sign5 = new Sign("AB_CD_EF", 2);
 
 x = sign5.numberOfLines();
@@ -183,7 +183,7 @@ System.out.println(x);
     4
 
 
-Here is the information you provided formatted as a Markdown table:
+## Peer Grading: Sreeja
 
 | Point | Requirement | Responses to Earn Point | Responses Not to Earn Point | Points |
 |-------|-------------|-------------------------|----------------------------|--------|
@@ -199,6 +199,9 @@ Here is the information you provided formatted as a Markdown table:
 
 
 **Score: 9/9**
+
+**1/1**
+
 
 ## Major Takeaways
 
