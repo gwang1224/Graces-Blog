@@ -1,10 +1,11 @@
 ---
-layout: post
+layout: default
 title: Unit 9 Lesson
 description: A progressive journey through Java Inheritance
 courses: {'csa': {'week': 2}}
 categories: ['C4.0']
 type: hacks
+permalink: /lesson9
 ---
 
 # 9.1 What is inheritance?
