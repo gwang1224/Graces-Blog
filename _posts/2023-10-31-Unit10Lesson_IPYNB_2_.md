@@ -3,9 +3,7 @@ toc: True
 comments: True
 layout: default
 title: Unit 10 Lesson
-description: the lesson for the unit 0
 permalink: /lesson10
-courses: {'csa': {'week': '11'}}
 type: hacks
 ---
 
@@ -51,7 +49,7 @@ public static void main(String[] args) {
 note : pay attention
 
 
-```Java
+```java
 // void recursive method
 public static void simpleRecur(int n)
 {
@@ -99,7 +97,7 @@ here is a modified code from above, what would be the output of the code above? 
 
 
 
-```Java
+```java
 // infinite 
 public static void simpleRecur(int n)
 {
@@ -120,7 +118,7 @@ public static void simpleRecur(int n)
 n is getting larger infinitely. java will eventually run out of memory and cause a ```CallStackOverflowException```.
 
 
-```Java
+```java
 // non-void recursive method
 public static void simpleRecur(int n)
 {
@@ -220,7 +218,7 @@ with linear search, we just iterate through each value, starting at the start of
 # iterative binary search
 
 
-```Java
+```java
 //iterative approach to binary search
 // This is a method for performing a binary search on a sorted integer array.
 // It returns the index of the target element if found, or -1 if the element is not in the array.
@@ -258,7 +256,7 @@ public static int binarySearch(int[] intArray, int lowPosition, int highPosition
 # recursive binary search
 
 
-```Java
+```java
 public static int recBinarySearch(int[] intArray, int lowPosition, int highPosition, int target) {
     int midPosition;
 
@@ -316,7 +314,7 @@ If the target does not exist, we would print -1 as the value is not found.
 edit the following code so that running the cell will sort through an array of your creation.
 
 
-```Java
+```java
 public static int recBinarySearch(int[] intArray, int lowPosition, int highPosition, int target) {
     int midPosition;
 
@@ -377,7 +375,7 @@ APPLY RECURSIVE LOGIC TO sort arrays for elements
 
 
 
-```Java
+```java
 mergeSort(myList) {
     mergeSort(left)
     mergeSort(right)
@@ -433,12 +431,12 @@ Sorted List: |-9|0|2|5|8|14|25|
 
 
 
-```Java
+```java
 Merge Method ---The **merge** method 
 ```
 
 
-```Java
+```java
 // work from left to right in each virtual myArray
 // compare elements to return them to the original array in order
 int[] myArray = {3, 4, 6, 8, 1, 2, 5, 7}
@@ -461,7 +459,7 @@ int[] myArray2 = {1, 2, 5, 7};
 </detail>
 
 
-```Java
+```java
 
 public class sort {
     public static int[] output;   
@@ -552,7 +550,7 @@ Merge sort creates smaller arrays from large arrays, and then merging them back 
 
 
 
-```Java
+```java
 %maven org.knowm.xchart:xchart:3.5.2
 
 import org.knowm.xchart.*;
@@ -581,7 +579,7 @@ public class Example0 {
 - The equation would be negative and linear
 
 
-```Java
+```java
 private static void graph(double[] xData, double[] yData, int index, double x, int maxIndex, double stepSize) {
     if (index > maxIndex) {
         return;
@@ -595,7 +593,7 @@ private static void graph(double[] xData, double[] yData, int index, double x, i
 ```
 
 
-```Java
+```java
 %maven org.knowm.xchart:xchart:3.5.2
 
 
@@ -638,7 +636,7 @@ RecursiveGraph.main(null);
 - The equation would be exponential
 
 
-```Java
+```java
 private static void plot(double[] xData, double[] yData, int index, double x, int maxIndex, double stepSize, double base) {
     if (index > maxIndex) {
         return;
@@ -652,7 +650,7 @@ private static void plot(double[] xData, double[] yData, int index, double x, in
 ```
 
 
-```Java
+```java
 %maven org.knowm.xchart:xchart:3.5.2
 
 import org.knowm.xchart.*;
@@ -702,7 +700,7 @@ recursiveGraph2.main(null);
 - Make sure to take a screenshot of the graph and display it next to it's respective code block
 
 
-```Java
+```java
 %maven org.knowm.xchart:xchart:3.5.2
 
 import org.knowm.xchart.*;
