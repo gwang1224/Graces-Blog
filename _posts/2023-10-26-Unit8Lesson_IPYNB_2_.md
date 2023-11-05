@@ -46,7 +46,7 @@ DataType[][] name // 2D array
 
 
 
-```Java
+```java
 int[][] intArray; //primitive
 String[][] stringArray; //object
 ```
@@ -55,7 +55,7 @@ String[][] stringArray; //object
 
 
 
-```Java
+```java
 public class TwoDArrayExample {
     public static void main(String[] args) {
         int rows = 3;
@@ -88,7 +88,7 @@ TwoDArrayExample.main(null)
 # Popcorn HACK 1
 
 
-```Java
+```java
 public class TwoDArrayHack1 {
     public static void main(String[] args) {
         // Declare and initialize a 2D array with 5 rows (arrays) and 4 columns (elements per array) of int data type.
@@ -127,7 +127,7 @@ TwoDArrayHack1.main(null);
 # More Initializing and Accessing Array Elements of a 2D Array
 
 
-```Java
+```java
 class Student {
     private String name;
     private int age;
@@ -180,7 +180,7 @@ TwoDArrayHack2.main(null)
 # More Initializing + Accessing + Popcorn HACK 2
 
 
-```Java
+```java
 class NFLTeams {
     private String teamName;
     private String city;
@@ -240,7 +240,7 @@ NFLTeams2DArray.main(null)
 ## Updating 2D Arrays
 
 
-```Java
+```java
 public class Update2DArray {
     public static void main(String[] args) {
         // Create a 3x3 2D array of integers
@@ -278,10 +278,21 @@ Update2DArray.main(null)
 
 ```
 
+    Original 2D Array:
+    1 2 3 
+    4 5 6 
+    7 8 9 
+    
+    Updated 2D Array:
+    11 2 3 
+    4 22 6 
+    7 8 33 
+
+
 # Popcorn HACK 3
 
 
-```Java
+```java
 public class Update2DArrayHACK {
 
     // Helper method to print the 2D integer array
@@ -399,9 +410,54 @@ answer should be int[3][2] myArray;
 
 ## Finish Popcorn HACKS, type DONE Here when you finish
 
+DONE
+
 ## HACK 1
 - Create a class (for object 2D arrays), and declare and initialize a 2D array
 - Show updating a 2D array with object functionality
+
+
+```java
+public class Custom2DArray {
+
+    private Object[][] customArray;
+
+    // Constructor to initialize the 2D array
+    public Custom2DArray(int numRows, int numCols) {
+        customArray = new Object[numRows][numCols];
+    }
+
+    // Method to update a value in the 2D array
+    public void updateValue(int rowIdx, int colIdx, Object element) {
+        customArray[rowIdx][colIdx] = element;
+    }
+
+    // Method to display the 2D array
+    public void displayArray() {
+        for (int i = 0; i < customArray.length; i++) {
+            for (int j = 0; j < customArray[i].length; j++) {
+                System.out.print(customArray[i][j] + " ");
+            }
+            System.out.println();
+        }
+    }
+
+    public static void main(String[] args) {
+        Custom2DArray customObj = new Custom2DArray(5, 5);
+        customObj.updateValue(0, 0, "Grace");
+        customObj.displayArray();
+    }
+}
+
+Custom2DArray.main(null)
+```
+
+    Grace null null null null 
+    null null null null null 
+    null null null null null 
+    null null null null null 
+    null null null null null 
+
 
 # 8.2
 
@@ -409,7 +465,7 @@ answer should be int[3][2] myArray;
 - Traversing is known to acsess each element in a array also known as itteration, in the case of 2D Arrays we will acsess elements in the 2D array, but we will need to use specfiic methods of nested for loops, and enhanced for loops.
 
 
-```Java
+```java
 public class ArrayTraversalExample {
     public static void main(String[] args) {
         // Array that is created in order to be traversed/itterate through
@@ -439,7 +495,7 @@ ArrayTraversalExample.main(null)
 - A nested for loop is a type of loop that contains an inner loop and outer loop, allowing to create a two dimensional piece that will now allow us to traverse through 2D Arrays.
 
 
-```Java
+```java
 public class NestedLoops {
     public static void main(String[] args) {
         for (int outer = 1; outer < 5; outer++) {
@@ -462,7 +518,7 @@ NestedLoops.main(null)
 # Enhanced For Loop
 
 
-```Java
+```java
 public class EnhancedForLoopExample {
     public static void main(String[] args) {
         String[] fruits = {"Apple", "Banana", "Cherry", "Date", "Fig"};
@@ -499,7 +555,7 @@ EnhancedForLoopExample.main(null)
 # Nested Loops traversing through a 2D Array
 
 
-```Java
+```java
 public class TwoDArrayTraversal {
     public static void main(String[] args) {
         // First Create the 2D array
@@ -531,7 +587,7 @@ TwoDArrayTraversal.main(null)
 - What would you replace the question marks with if we didnt know the dimensions of this 2D Array
 
 
-```Java
+```java
 public class TwoDArrayTraversal {
     public static void main(String[] args) {
         // First Create the 2D array
@@ -563,7 +619,7 @@ TwoDArrayTraversal.main(null)
 - Create a 2D Array Based and Traverse through it using a nested loop based on this problem
 
 
-```Java
+```java
 public class TwoDPractice {
     public static void main(String[] args) {
         
@@ -596,7 +652,7 @@ public class TwoDPractice {
 ## Using Enhanced For- Loops to Traverse an Array
 
 
-```Java
+```java
 public class EnhancedForLoop2DArray {
     public static void main(String[] args) {
         // Define and initialize a 2D array
@@ -632,7 +688,7 @@ EnhancedForLoop2DArray.main(null)
 Row major order is reading the array by rows, column major order is reading the array by columns
 
 
-```Java
+```java
 public class PrintArray {
     public static void printArray(String[][] grid) {
         for (int row = 0; row < grid.length; row++) {
@@ -661,7 +717,7 @@ PrintArray.main(null)
 
 
 
-```Java
+```java
 public class PrintArray {
     public static void printArray(String[][] grid) {
         for (int col = 0; col < grid[0].length; col++) // outer loop for collums switched
@@ -694,12 +750,12 @@ PrintArray.main(null)
 - Print My AP CS A Class Rocks Using a column major traversal.
 
 
-```Java
+```java
 public class PrintArray {
     public static void printArray(String[][] grid) {
-        for (???) {
-            for (???) {
-                System.out.print(grid[???][???] + " ");
+        for (int row = 0; row < grid.length; row++) {
+            for (int col = 0; col < grid[0].length; col++) {
+                System.out.print(grid[row][col] + " ");
             }
         }
     }
@@ -721,10 +777,12 @@ public class PrintArray {
 PrintArray.main(null)
 ```
 
+    My Ap Cs R AP A Class o C p   c S     k s   s ! 
+
 # Algorithms That use 2D Arrays Traversing 
 
 
-```Java
+```java
 public class SearchExample {
     public static boolean search(String[][] chart, String name) {
         for (int r = 0; r < chart.length; r++) {
@@ -768,6 +826,43 @@ SearchExample.main(null)
     - Create your own situration of an Algorthm that needs to traverse a 2D array and then write the code for it 
     - Extra: Create an Extra Problem or Go further in depth about something we learned (MUST HAVE CODE FOR CREDIT!)
 
+
+```java
+public class SearchSadFace {
+    public static boolean search(String[][] chart, String name) {
+        for (int r = 0; r < chart.length; r++) {
+            for (int c = 0; c < chart[0].length; c++) {
+                if (chart[r][c].equals(name)) {
+                    System.out.println(name + " found at index [" + r + "][" + c + "].");
+                    return true;
+                }
+            }
+        }
+        return false; // Name not found in the array
+    }
+
+    public static void main(String[] args) {
+        String[][] chart = {
+            {":)", ":)", ":)", ":)", ":)", ":)"},
+            {":)", ":)", ":)", ":)", ":)", ":)"},
+            {":)", ":)", ":(", ":)", ":)", ":)"}
+        };
+
+        String nameToSearch = ":(";
+        boolean found = search(chart, nameToSearch);
+
+        if (!found) {
+            System.out.println(nameToSearch + " is not in the array.");
+        }
+    }
+}
+
+SearchSadFace.main(null);
+```
+
+    :( found at index [2][2].
+
+
 # Image Representation with 2D Arrays
 
 Digital images are essentially a collection of small, discrete elements called pixels. Pixels are organized in a 2D grid, where each pixel represents a single point of color or intensity. Each element (pixel) in the 2D array corresponds to one pixel in the image. In a color image, each pixel contains three color components: Red, Green, and Blue (RGB), while in grayscale images, each pixel has a single intensity value.
@@ -777,7 +872,7 @@ Digital images are essentially a collection of small, discrete elements called p
 Traversing an image's 2D array involves systematically visiting every pixel in the image grid. This process often uses nested loops, with the outer loop iterating over the rows and the inner loop iterating over the columns. By traversing the array, you gain access to each pixel's information, such as color values or intensity. This structured access is fundamental for various image processing tasks.
 
 
-```Java
+```java
 import java.io.*;
 import java.net.URL;
 import javax.imageio.ImageIO; // ImageIO is a class in Java libraries which gives an easy way to use different image formats
@@ -846,7 +941,7 @@ ImageProcessing.main(null)
 Grayscale conversion is a fundamental image processing operation. When converting an image to grayscale, you effectively remove color information and retain only the pixel intensity. This is typically done by calculating the average intensity from the RGB components of each pixel. The result is a grayscale image where variations in pixel intensity represent the image's features and details. This operation can serve as a starting point for more complex image processing techniques.
 
 
-```Java
+```java
 import java.awt.image.BufferedImage;
 import java.awt.image.ColorConvertOp;
 import java.io.*;
@@ -933,12 +1028,12 @@ ImageToGrayscaleWithArray.main(null)
 
 <b> Why do we Convert Images ? </b>
 
-
+We simplify algorithms by converting images. Each image format (HEIC, PNG, etc.) serves specific purposes. These diverse formats optimize complex processes, like computing fractal dimensions, for greater efficiency.
 
 #### How Does Image Conversion Work:
 
 
-```Java
+```java
 import javax.imageio.ImageIO; // allows you to read and write images in various formats.
 import java.io.File; // allows you to work with files and directories in your file system.
 import java.io.IOException; // allows you to handle input and output exceptions that may occur during file operations.
@@ -983,7 +1078,7 @@ ImageConverter.main(null)
 
 
 
-```Java
+```java
 import javax.imageio.ImageIO;
 import java.io.File;
 import java.io.IOException;
@@ -1025,7 +1120,7 @@ ImageConverter.main(null);
 ## Scaling the Image
 
 
-```Java
+```java
 import javax.imageio.ImageIO;
 import java.awt.*;
 import java.awt.image.BufferedImage;
@@ -1092,6 +1187,41 @@ ImageScaler.main(null);
 ## Images Hack
 
 Hack: Create a functioning code in which you convert a PNG image to a JPEG image (make it funny).
+
+
+
+```java
+import javax.imageio.ImageIO;
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.IOException;
+
+public class PNGtoJPEGConverter {
+
+    public static void main(String[] args) {
+        String inputFilePath = "/Users/gracewang/Documents/csa/Graces-Blog/images/morty.png"; // Replace with your PNG file path
+        String outputFilePath = "morty.jpeg"; // Output file path for JPEG image
+
+        try {
+            // Read the PNG image
+            File inputFile = new File(inputFilePath);
+            BufferedImage pngImage = ImageIO.read(inputFile);
+
+            // Write the PNG image to a JPEG file
+            File outputFile = new File(outputFilePath);
+            ImageIO.write(pngImage, "jpg", outputFile);
+
+            System.out.println("Conversion completed: " + outputFilePath);
+        } catch (IOException e) {
+            System.out.println("An error occurred: " + e.getMessage());
+        }
+    }
+}
+
+PNGtoJPEGConverter.main(null);
+```
+
+    Conversion completed: morty.jpeg
 
 
 # Grading for Hacks

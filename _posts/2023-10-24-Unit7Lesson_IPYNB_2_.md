@@ -30,7 +30,7 @@ permalink: /unit-7
 In order to use the ArrayList class, the ArrayList class needs to be imported from the java util package. This can be done by writing import java.util.ArrayList at the top of the class file.
 
 
-```Java
+```java
 import java.util.ArrayList;  // Import the ArrayList class
 
 // Declare and initialize an ArrayList of integers
@@ -40,14 +40,14 @@ ArrayList<Integer> numbersList = new ArrayList<>();
 ArrayList objects are created in the same fashion as other object classes. The primary difference with ArrayLists is that the element type of the ArrayList must be specified using angled bracket <>. In this example, E represents the data type that will be used in the ArrayList. This can be replaced by an object data type:
 
 
-```Java
+```java
 ArrayList<E> list = new ArrayList<E>();
 ```
 
 We can actually declare ArrayLists without specifying the type that will be included in the ArrayList, but specifying the data type is smarter because it allows the compiler to find errors before run time, so its more efficient and easy to spot errors.
 
 
-```Java
+```java
 ArrayList list = new ArrayList();
 ```
 
@@ -56,7 +56,7 @@ ArrayList list = new ArrayList();
 Create 2 ArrayLists, 1 called `studentName` and 1 called `studentAge`
 
 
-```Java
+```java
 public class Student
 {
     public static void main(String[] args)
@@ -101,7 +101,7 @@ Students will be able to represent collections of related object reference data 
 Consider the following code:
 
 
-```Java
+```java
 ArrayList<Integer> a1 = new ArrayList<>();
 System.out.println(a1.size());
 ```
@@ -117,7 +117,7 @@ System.out.println(a1.size());
 Consider the following code:
 
 
-```Java
+```java
 ArrayList<Double> a2 = new ArrayList<>();
 a2.add(1.0);
 a2.add(2.0);
@@ -134,7 +134,7 @@ System.out.println(a2);
 Consider the following code:
 
 
-```Java
+```java
 ArrayList<String> h = new ArrayList<>();
 
 h.add("Hello");
@@ -156,7 +156,7 @@ System.out.println(h);
 Now, consider this code:
 
 
-```Java
+```java
 ArrayList<String> g = new ArrayList<>();
 
 g.add("Hello");
@@ -182,7 +182,7 @@ All the added elements are of the same data type
 `E remove(int index)` : Removes the element at position `index`, and moves the elements at position `index + 1` and higher to the left. It also subtracts one from the list's size. The return value is the element formerly at position `index`.
 
 
-```Java
+```java
 // If you are confused of what list g is, look back at the previous code.
 g.remove(3);
 String former = g.remove(0);
@@ -197,7 +197,7 @@ System.out.println(former);
 `E set(int index, E obj)` : Replaces the element at position `index` with `obj` and returns the element formerly at position `index`.
 
 
-```Java
+```java
 String helloFormer = g.set(1, "Bonjour");
 System.out.println(helloFormer);
 System.out.println(g);
@@ -212,7 +212,7 @@ System.out.println(g);
 `E get(int index)` Returns the element at position `index` in the list.
 
 
-```Java
+```java
 String hello = g.get(3);
 System.out.println(hello);
 System.out.println(g);
@@ -227,7 +227,7 @@ System.out.println(g);
 The only time that it is wise to use `ArrayList` instead of `ArrayList<E>` is when it is as a function parameter and it is only using `ArrayList<>.get(E)` or `ArrayList<>.size()`. Consider the following code:
 
 
-```Java
+```java
 private void accessOnly(ArrayList arr) {
     if (arr.size() > 0) {
         System.out.println(arr.get(0)); // Change the index to the one you want to access
@@ -248,7 +248,7 @@ accessOnly(myList);
 In order for you to return an `ArrayList`, the data type must be specified, and the return type must be the same as the return value. Consider the following code:
 
 
-```Java
+```java
 private ArrayList<String> returnTheSame() {
     ArrayList<String> arr = new ArrayList<String>(); // Initialize the ArrayList
     arr.add("Hello");
@@ -294,32 +294,63 @@ System.out.println(result);
 ### Hack Helper
 
 
-```Java
+```java
+import java.util.ArrayList;
+
 public class ArrayListMethodsExample {
-    private String manipulateList(/* You can put parameters here if you want to... */) {
-        // Your code here
+    private ArrayList<String> shoppingList = new ArrayList<>();
+
+    private String manipulateList(String item1, String item2, int remove, int replace, String replaceItem) {
+        
+        //initialize some values
+        shoppingList.add("strawberries");
+        shoppingList.add("water");
+        shoppingList.add("flour");
+        shoppingList.add("cheese");
+        
+        // Add 2 items to the list.
+        shoppingList.add(item1);
+        shoppingList.add(item2);
+
+        // Remove an item from the list anywhere of the user's choice.
+        String removedItem = shoppingList.remove(remove);
+
+        // Replace an item anywhere in the list of the user's choice.
+        String replacedItem = shoppingList.set(replace, replaceItem);
+
+        // Get the first and last element of the list
+        String firstItem = shoppingList.get(0);
+        String lastItem = shoppingList.get(shoppingList.size() - 1);
+
+        // Return the items added, removed, replaced, and the list's size, in one string
+        return "Added: " + item1 + ", " + item2 + "\n" +
+               "Removed: " + removedItem + "\n" +
+               "Replaced: " + replacedItem + " at index " + replace + "\n" +
+               "First Item: " + firstItem + "\n" +
+               "Last Item: " + lastItem + "\n" +
+               "List Size: " + shoppingList.size();
     }
 
     public static void main(String[] args) {
-        ArrayList<Integer> nums = new ArrayList<>();
         ArrayListMethodsExample example = new ArrayListMethodsExample();
-        
-        String output = example.manipulateList();
-        System.out.println(output);
+
+        // Sample inputs for the method
+        String list = example.manipulateList("milk", "chocolate", 0, 0, "butter");
+        System.out.println(list);
     }
 }
+
+
+ArrayListMethodsExample.main(null)
+
 ```
 
-
-    |       private String manipulateList(/* You can put parameters here if you want to... */) {
-
-    |           // Your code here
-
-    |       }
-
-    missing return statement
-
-    
+    Added: milk, chocolate
+    Removed: strawberries
+    Replaced: water at index 0
+    First Item: butter
+    Last Item: chocolate
+    List Size: 5
 
 
 # 7.3: Traversing Arraylists
@@ -337,7 +368,7 @@ public class ArrayListMethodsExample {
 - The indicies of an Arraylist start at 0; If you try to use any value lower than 0, you will get an *ArrayIndexOutOfBoundsException* error
 
 
-```Java
+```java
 import java.util.ArrayList;
 import java.util.List;
 
@@ -387,26 +418,30 @@ Suppose we have an arraylist named grades, and we want to remove the entries tha
 replace the question marks with code to solve the problem:
 
 
-```Java
+```java
 import java.util.ArrayList;
 import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        ArrayList<int> grades = new ArrayList<>();
-        grades.add(68.9);
-        grades.add(71);
-        grades.add(100);
-        grades.add(80);
-        for(int i = 0; i<???; i???){
+        ArrayList<Double> grades = new ArrayList<>(); // Fix the arraylist
+        grades.add((double)68.9);
+        grades.add((double)71); // Casting
+        grades.add((double)100);
+        grades.add((double)80);
+        for(int i = 0; i < grades.size(); i++ ){
             if(grades.get(i)<70){
-                ???
+                grades.remove(i);
             }
         }
         System.out.println(grades);
     }
 }
+Main.main(null)
 ```
+
+    [71.0, 100.0, 80.0]
+
 
 #### Using Enhanced For-Loop With Traversing:
 
@@ -415,7 +450,7 @@ public class Main {
 - Indexes are not explicitly used and copies of the current element are made at each iteration.
 
 
-```Java
+```java
 import java.util.ArrayList;
 import java.util.List;
 
@@ -451,6 +486,41 @@ public class Main {
 - 90% credit to any working code and scenario
 - 80% credit to incomplete code if you provide explanation of it
 - -10% deduction for late submition
+
+You are going on a rollercoaster ride at Six Flags. You see that there is a height limit on one of the rides. You ask the worker and they say they create a cap on the heights because people who are too tall will get their heads cut off. Therefore, the worker must check to see that all riders are below 6 foot (72 inches). Thus, we want to remove all the heights that are equal to 72 or taller. However, if the riders are too short, they will fall out and die. We must also check that all riders are taller than 4 feet (48 inches).
+
+
+```java
+import java.util.ArrayList;
+import java.util.List;
+
+public class Main {
+    public static void main(String[] args) {
+        ArrayList<Double> heights = new ArrayList<>(); // Fix the arraylist
+        heights.add((double)43);
+        heights.add((double)89); 
+        heights.add((double)59);
+        heights.add((double)58);
+        heights.add((double)81);
+        heights.add((double)47);
+        heights.add((double)39);
+        heights.add((double)98);
+        heights.add((double)85);
+        heights.add((double)54);
+        heights.add((double)60);
+        for(int i = 0; i < heights.size(); i++ ){
+            if(heights.get(i)>71 || heights.get(i)<48){
+                heights.remove(i);
+            }
+        }
+        System.out.println(heights);
+    }
+}
+Main.main(null)
+```
+
+    [89.0, 59.0, 58.0, 47.0, 98.0, 54.0, 60.0]
+
 
 # 7.4: Developing Algorithms Using ArrayLists
 
@@ -491,21 +561,23 @@ In the realm of algorithms, within the context of specific requirements that dem
 
 Before you uncomment the code and run it, guess what the code will do based on what you've learned.
 
+It will find the max
+
 ### Let's Look at an Example (Example 1)
 
 
-```Java
+```java
 public class ArrayListExample {
     private double findMax(double[] values) {
-        // double max = values[0];
+        double max = values[0];
     
-        //for (int index = 1; index < values.length; index++) {
-        //    if (values[index] > max) {
-        //        max = values[index];
-        //    }
-        //}
+        for (int index = 1; index < values.length; index++) {
+           if (values[index] > max) {
+               max = values[index];
+           }
+        }
     
-        // return max;
+        return max;
     }
     
     public static void main(String[] args) {
@@ -519,21 +591,24 @@ public class ArrayListExample {
 ArrayListExample.main(null);
 ```
 
+    Maximum value: 69.0
+
+
 Take a closer look at the `findMax()` method. It takes in a list of doubles as parameters. It will then use a `for` loop to find the maximum value in the list. Now, using what we know, can we replace the list of doubles with an ArrayList of Doubles? We sure can! Take a look at how we can use ArrayList to do just that:
 
 
-```Java
+```java
 public class ArrayListExample {
     private double findMax(ArrayList<Double> values) {
-        // double max = values.get(0);
+        double max = values.get(0);
     
-        //for (int index = 1; index < values.size(); index++) {
-        //    if (values.get(index) > max) {
-        //        max = values.get(index);
-        //    }
-        //}
+        for (int index = 1; index < values.size(); index++) {
+           if (values.get(index) > max) {
+               max = values.get(index);
+           }
+        }
     
-        //return max;
+        return max;
     }
     
     public static void main(String[] args) {
@@ -560,20 +635,23 @@ public class ArrayListExample {
 ArrayListExample.main(null);
 ```
 
+    Maximum value: 69.0
+
+
 ### Let's Look at an Example (Example 2)
 
 Take a look at this code:
 
 
-```Java
+```java
 public class ArrayListExample {
     private int findMin(int[] values) {
-        //int min = Integer.MAX_VALUE;
-        //for (int currentValue : values) {
-        //    if (currentValue < min) {
-        //        min = currentValue;
-        //    }
-        //}
+        int min = Integer.MAX_VALUE;
+        for (int currentValue : values) {
+           if (currentValue < min) {
+               min = currentValue;
+           }
+        }
         return min;
     }
 
@@ -588,18 +666,21 @@ public class ArrayListExample {
 ArrayListExample.main(null);
 ```
 
+    Minimum value: 420
+
+
 Now, can we use ArrayLists to make this code better? We sure can! Take a look at the new and improved code that uses ArrayLists:
 
 
-```Java
+```java
 public class ArrayListExample {
     private int findMin(ArrayList<Integer> values) {
-        //int min = Integer.MAX_VALUE;
-        //for (int currentValue : values) {
-        //    if (currentValue < min) {
-        //        min = currentValue;
-        //    }
-        //}
+        int min = Integer.MAX_VALUE;
+        for (int currentValue : values) {
+           if (currentValue < min) {
+               min = currentValue;
+           }
+        }
         return min;
     }
 
@@ -620,22 +701,62 @@ public class ArrayListExample {
 ArrayListExample.main(null);
 ```
 
+    Minimum value: 420
+
+
 ### Hacks
 
 - Answer the questions: 
     * Look back at the examples. What's similar? What's different?
+        - all have main methods that initializes the numnbers
+        - all hve a class called ArrayList Example
+
+        - Examples 1 and 3 adds all the values individually while example 2 initializes the list
+        - Example 1 uses regular array
+        - Example 2 uses array list
+        
+        
     * Why do we use `ArrayList`? Why not just regular lists?
+        - Array list have dynamic sizing
+        - easy to iterate due to array-based structure
+        - easy to add, remove, and modify elements
+
 - Demonstrate at least two `ArrayList` methods that aren't `ArrayList<>.size()` and `ArrayList<>.get()`.
 - Write the method `findSum()` using the Hack Helper and incorporating `ArrayList`.
+
+
+```java
+ArrayList<Integer> nums = new ArrayList<>();
+        nums.add(420);
+        nums.add(703);
+        nums.add(2034);
+        nums.add(582);
+        nums.add(1047);
+        nums.add(4545);
+
+System.out.println(nums);
+
+nums.add(69); 
+nums.remove(1);  
+
+System.out.println(nums);
+```
+
+    [420, 703, 2034, 582, 1047, 4545]
+    [420, 2034, 582, 1047, 4545, 69]
+
 
 ### Hack Helper
 
 
-```Java
+```java
 public class ArrayListHacks {
     private int findSum(ArrayList<Integer> values) {
-        // Your code here
-        return 0;
+        int sum = 0;
+        for (int value : values) {
+            sum += value;
+        }
+        return sum;
     }
 
     public static void main(String[] args) {
@@ -648,12 +769,17 @@ public class ArrayListHacks {
         nums.add(8);
 
         ArrayListHacks hacks = new ArrayListHacks();
-        hacks.findSum(nums);
+        int sum = hacks.findSum(nums);
+
+        System.out.println("The sum of the elements in the ArrayList is: " + sum);
     }
 }
 
 ArrayListHacks.main(null);
 ```
+
+    The sum of the elements in the ArrayList is: 19
+
 
 # 7.5 Searching
 
@@ -682,7 +808,7 @@ ArrayListHacks.main(null);
 ## Searching an ``ArrayList`` of Double
 
 
-```Java
+```java
 public int where(double magicNumber, ArrayList<Double> realNumbers, double delta)
 {
     for (int index = 0; index < realNumbers.size(); index++)
@@ -702,7 +828,7 @@ public int where(double magicNumber, ArrayList<Double> realNumbers, double delta
 ## Searching an ``ArrayList`` of book for a ``String``
 
 
-```Java
+```java
 public int findTheWord(String searchedPhrase, ArrayList<Book> myBooks)
 {
     for (int index = 0; index < myBooks.size(); index++)
@@ -753,7 +879,7 @@ public int findTheWord(String searchedPhrase, ArrayList<Book> myBooks)
 Example:
 
 
-```Java
+```java
 // with normal arrays
 for (int outerLoop = 0; outerLoop < myDucks.length; outerLoop ++)
 {
@@ -797,7 +923,7 @@ During each iteration of the outer loop, it finds the index of the minimum eleme
 Example:
 
 
-```Java
+```java
 for (int outer = 1; outer < randomList.size(); outer++)
 {
     DebugDuck tested = randomList.get(outer);
@@ -829,6 +955,10 @@ for (int outer = 1; outer < randomList.size(); outer++)
 
 ## Hacks:
 - Think of other ways to safeguard user privacy (any other method not listed is fine)
+    - Data Encryption
+    - Use super long passwords
+    - Data masking
+
 - Extra points to creative solutions
 - 90% credit to any solution
 - 80% credit to incomplete solution (how did you do that?)
