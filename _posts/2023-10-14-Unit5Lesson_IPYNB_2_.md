@@ -3,6 +3,7 @@ toc: True
 comments: True
 layout: default
 title: Unit 5 Lesson
+courses: {'labnotebook': {'week': 5}}
 ---
 
 # 5.1 Anatomy of a Class

@@ -3,6 +3,7 @@ layout: default
 title: Unit 6 Lesson
 toc: True
 comments: True
+courses: {'labnotebook': {'week': 9}}
 description: Lesson for APCSA Unit 6. Authors are Sreeja, Tanisha, Vivian, and Isabelle
 ---
 

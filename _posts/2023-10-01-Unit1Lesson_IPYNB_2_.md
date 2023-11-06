@@ -5,8 +5,8 @@ layout: default
 title: Unit 1 Student Teaching
 description: the lesson for the unit 1
 permalink: /lesson
-courses: {'csa': {'week': '7'}}
-type: hacks
+courses: {'labnotebook': {'week': 7}}
+type: notes
 ---
 
 # SECTION 1.1

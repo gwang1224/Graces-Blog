@@ -2,7 +2,7 @@
 layout: default
 title: Unit 9 Lesson
 description: A progressive journey through Java Inheritance
-courses: {'csa': {'week': 2}}
+courses: {'labnotebook': {'week': 11}}
 categories: ['C4.0']
 type: hacks
 permalink: /lesson9
@@ -37,7 +37,7 @@ In this example, the Son and Daughter inherits the Mom, meaning it inherit the c
 - Example below:
 
 
-```Java
+```java
 public class Vehicle { //This is the Superclass, it inherits the key variables for its subclasses
     public String Name; //They don't have to be public, but I just put public word for fun
     public String Sound;
@@ -88,7 +88,7 @@ Make it so that a new instance of Bob runs
 <script>message any of us on slack "I" for an extra 0.01 (max of 1/1)</script>
 
 
-```Java
+```java
 public class Worker {
     String name;
     int age;
@@ -167,7 +167,7 @@ Consistency: Method overriding helps maintain a consistent interface for classes
 Code Reusability: It promotes code reusability by allowing you to build on existing code in the superclass.
 
 
-```Java
+```java
 class Animal {
     void makeSound() {
         System.out.println("Animals make sounds");
@@ -233,7 +233,7 @@ This showcases how method overriding allows you to provide specific implementati
 Imagine you're building a program to manage sports team rosters. You can have a base class 'Athlete' representing common attributes and actions of all athletes. Then, create subclasses for specific sports like 'FootballPlayer', 'BasketballPlayer', and 'SoccerPlayer'.
 
 
-```Java
+```java
 // Base Class
 class Athlete {
     String name;
@@ -275,7 +275,7 @@ athlete.displayInfo();
 
 
 
-```Java
+```java
 class FootballPlayer extends Athlete {
     public FootballPlayer(String name, int age, int jerseyNumber, String position) {
         super(name, age, jerseyNumber, position);
@@ -327,7 +327,7 @@ class SoccerPlayer extends Athlete {
 ```
 
 
-```Java
+```java
 FootballPlayer footballPlayer = new FootballPlayer("Tyreek Hill", 28, 10, "Wide Receiver");
 BasketballPlayer basketballPlayer = new BasketballPlayer("Jimmy Butler", 32, 22, "Small Forward");
 SoccerPlayer soccerPlayer = new SoccerPlayer("Neymar Jr", 31, 10, "Left Winger");
@@ -383,7 +383,7 @@ It is helpful to have a common base class like athlete because having one overar
 - With the super key word, not only can you store variables, but also store methods
 
 
-```Java
+```java
 class Animal{
     public void Introduction(String name){
         System.out.println("I am a " + name);
@@ -422,7 +422,7 @@ Test.main(null);
 Finish up the code with this criteria: All subclasses must say their origin, the origin can be from SchoolSupply class, and it must run through main.
 
 
-```Java
+```java
 class SchoolSupply {
     public void BasicInfo(String name) {
         System.out.println("I am a " + name);
@@ -491,7 +491,7 @@ A c = new C();
 ```
 
 
-```Java
+```java
 // This is the above example in code form
 
 class A {}
@@ -532,7 +532,7 @@ __Compile__
 Here is an example of compile polymorphism
 
 
-```Java
+```java
 // Class 1
 // Helper class
 class Helper {
@@ -589,7 +589,7 @@ Methods that Execute
 
 
 
-```Java
+```java
 import java.util.Random;
 
 public class Entertainer{
@@ -632,7 +632,7 @@ System.out.println(((Comedian)soham).tellJoke());
 Here is an example of runtime polymorphism
 
 
-```Java
+```java
 // Class 1
 // Helper class
 class Parent {
@@ -702,7 +702,7 @@ When we call a constructor to a "top-level class" that the coder hasn't declared
 ## Example 1
 
 
-```Java
+```java
 public class Person {
     String name;
     int age;
@@ -736,7 +736,7 @@ Person.main(null);
 ## Example 2
 
 
-```Java
+```java
 public class Book {
     String title;
     String author;
@@ -834,7 +834,7 @@ The object will be successfully assigned to the reference variable
 Create a program that represents various types of food and their specific preparations. Define a superclass called Food that includes attributes such as name, type, and calories. Implement methods for cooking the food and displaying its information. Create three subclasses (Fruit, Dessert, and Vegetable) that inherit from the Food class. Each subclass should override the cooking method to represent a specific preparation and display the food information accordingly. Write a test class, Test, containing instances of each subclass. Demonstrate the specific preparation methods and display the information for each food type.
 
 
-```Java
+```java
 // Base Class
 class Food {
     String name;

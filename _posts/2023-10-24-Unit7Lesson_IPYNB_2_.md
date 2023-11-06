@@ -5,7 +5,7 @@ layout: default
 title: Unit 7 Lesson
 description: ArrayList Lesson
 type: tangibles
-courses: {'csa': {'week': 9}}
+courses: {'labnotebook': {'week': 10}}
 permalink: /unit-7
 ---
 

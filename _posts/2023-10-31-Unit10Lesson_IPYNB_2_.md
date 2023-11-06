@@ -5,6 +5,7 @@ layout: default
 title: Unit 10 Lesson
 permalink: /lesson10
 type: hacks
+courses: {'labnotebook': {'week': 11}}
 ---
 
 # Learning Targets:

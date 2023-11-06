@@ -4,6 +4,7 @@ title: Unit 8 Lesson
 description: Group Lesson on Unit 8 which covers 2D arrays
 toc: True
 permalink: /unit8lesson
+courses: {'labnotebook': {'week': 10}}
 ---
 
 # 8.1
