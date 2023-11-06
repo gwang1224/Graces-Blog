@@ -739,3 +739,19 @@ HeartShapeGraph.main(null);
 ```
 
 ![](https://cdn.discordapp.com/attachments/923041823562276894/1170841357926023198/Screenshot_2023-11-05_at_1.45.22_PM.png?ex=655a81fc&is=65480cfc&hm=e08cbe3e61fe6678ca783134a267e6cf20af3a6ace71e5b3c46e892bca15985b&)
+
+
+```java
+int num = 2574;
+int result = 0;
+
+while (num > 0)
+{
+    result = result * 10 + num % 10;
+    num /= 10;
+}
+System.out.println(result);
+```
+
+    4752
+
