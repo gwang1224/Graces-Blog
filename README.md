@@ -5,29 +5,21 @@
     - Tangibles
     - Lab Notebook
 
+[Blogs](https://gwang1224.github.io/Graces-Blog/blogs)
+[Lab Notebook](https://gwang1224.github.io/Graces-Blog/labnotebook)
+[College Board Notes](https://gwang1224.github.io/Graces-Blog/cb)
 
 
 ## Run Server
 
-- Start preview server in terminal
+- To run local
 ```bash
-cd ~/vscode/teacher  # my project location, adapt as necessary
 make
 ```
-
-- Terminal output of shows server address. Cmd or Ctl click http location to open preview server in browser. Example Server address message... 
+or
+```bash
+bundle exec jekyll serve
 ```
-Server address: http://0.0.0.0:4100/teacher/
-```
-
-- Save on ipynb or md activiates "regeneration". Refresh browser to see updates. Example terminal message...
-```
-Regenerating: 1 file(s) changed at 2023-07-31 06:54:32
-    _notebooks/2024-01-04-cockpit-setup.ipynb
-```
-
-- Terminal message are generated from background processes.  Click return or enter to obtain prompt and use terminal as needed for other tasks.  Alway return to root of project `cd ~/vscode/teacher` for all "make" actions. 
-    
 
 - Stop preview server, but leave constructed files in project for your review.
 ```bash
