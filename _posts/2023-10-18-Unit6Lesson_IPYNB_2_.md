@@ -5,6 +5,7 @@ toc: True
 comments: True
 courses: {'labnotebook': {'week': 9}}
 description: Lesson for APCSA Unit 6. Authors are Sreeja, Tanisha, Vivian, and Isabelle
+type: hacks
 ---
 
 # Hello! wget this notebook `RIGHT NOW` 

@@ -6,7 +6,7 @@ title: Unit 1 Student Teaching
 description: the lesson for the unit 1
 permalink: /lesson
 courses: {'labnotebook': {'week': 7}}
-type: notes
+type: hacks
 ---
 
 # SECTION 1.1

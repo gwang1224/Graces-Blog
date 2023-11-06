@@ -4,9 +4,9 @@ comments: False
 layout: default
 title: Unit 7 Lesson
 description: ArrayList Lesson
-type: tangibles
 courses: {'labnotebook': {'week': 10}}
 permalink: /unit-7
+type: hacks
 ---
 
 # Unit 7: ArrayList

@@ -1,10 +1,11 @@
 ---
-layout: post
+layout: default
 title: Unit 4 Lesson
 toc: True
 comments: True
 description: Lesson for APCSA Unit 4
 courses: {'labnotebook': {'week': 8}}
+type: hacks
 ---
 
 # Iteration

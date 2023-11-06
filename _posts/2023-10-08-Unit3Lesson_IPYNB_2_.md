@@ -4,6 +4,7 @@ comments: True
 layout: default
 title: Unit 3 Lesson
 courses: {'labnotebook': {'week': 8}}
+type: hacks
 ---
 
 # Lessons

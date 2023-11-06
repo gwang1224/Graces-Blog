@@ -5,6 +5,7 @@ description: Group Lesson on Unit 8 which covers 2D arrays
 toc: True
 permalink: /unit8lesson
 courses: {'labnotebook': {'week': 10}}
+type: hacks
 ---
 
 # 8.1
