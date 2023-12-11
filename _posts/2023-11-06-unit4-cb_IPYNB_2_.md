@@ -10,7 +10,7 @@ title: College Board Unit 4 Notes
 iteration: repeating an action or set of actions until a given condition is met
 
 
-```Java
+```java
 // WHILE LOOP
 code before loop
 while (condition) {
@@ -32,7 +32,7 @@ Loop Condition Always False:
     - Mitigation: It's crucial to meticulously review loop conditions to prevent this scenario and ensure the loop runs when intended, avoiding unnecessary code bloat.
 
 
-```Java
+```java
 // Fixed Repetitions
 
 int i = 0;
@@ -52,7 +52,7 @@ while (i < 5) {
 ### Break in While Loop
 
 
-```Java
+```java
 while (true) {
     do something
     if (certain condition is met) {
