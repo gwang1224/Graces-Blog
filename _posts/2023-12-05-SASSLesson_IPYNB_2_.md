@@ -92,6 +92,29 @@ These visual concepts also play a role in planning the responsive design. The te
 
 **Explore SASS documentation to discover any additional features not covered in the lesson and implement one or more of these features in your GH Pages project. Write a couple sentences explaining the feature and demonstrate it.**
 
+In the example above, the .red-button class extends the styles defined in the .button class, inheriting its padding, background color, and text color. The @extend directive helps to maintain cleaner and more maintainable code by avoiding repetitive styles.
+
+```sass
+// SASS Code
+.button {
+  padding: 10px;
+  background-color: #3498db;
+  color: #fff;
+}
+
+.red-button {
+  @extend .button;
+  background-color: #e74c3c; // Overrides the background color for the red button
+}
+
+```
+
+<body>
+    <button class="button">Click me</button>
+    <br>
+    <button class="red-button">New Button</button>
+</body>
+
 ## Partials and Modular Styling with SASS
 
 ### Understanding SASS Partials:
@@ -674,7 +697,7 @@ $primary-color: #3498db; // Change this to an invalid color, e.g., 'red'
 ```
 
 
-```python
+```java
 %%html
 <div style="background-color: #3498db; padding: 20px;">
   <p style="color: #fff;">This is an example element with a primary color background.</p>
@@ -712,7 +735,7 @@ body {
 ```
 
 
-```python
+```java
 %%html
 <style>
   body {
@@ -747,6 +770,8 @@ Define a custom SASS function that uses a for loop in order to slightly decrease
 ### Example Image
 
 ![pixil-frame-0 (1)](https://github.com/Ant11234/student/assets/40652645/509214d6-bf1a-40f7-9028-cfd4b9f212da)
+
+
 
 # Mixins
 
