@@ -115,6 +115,8 @@ In the example above, the .red-button class extends the styles defined in the .b
     <button class="red-button">New Button</button>
 </body>
 
+![](https://cdn.discordapp.com/attachments/1010780182476496908/1183831344355221504/Screenshot_2023-12-11_at_9.55.45_AM.png?ex=6589c3db&is=65774edb&hm=8c07dd01331399e00cc8521841855e604f65e0929e4b83639133cc0ca1db0db9&)
+
 ## Partials and Modular Styling with SASS
 
 ### Understanding SASS Partials:
@@ -448,37 +450,33 @@ $padding: 10px
 
 Create a grid layout that automatically adjusts the number of columns based on the screen size, using SASS variables and functions.
 
-idk
-
 ```sass
-// Define SASS variables
-$column-count: 4;
-$gutter-width: 20px;
-$container-width: 100%;
+$min-column-width: 200px;
+$max-columns: 4;
 
-// Calculate column width
-$column-width: calc((#{$container-width} - (#{$column-count} - 1) * #{$gutter-width}) / #{$column-count});
-
-// Grid container mixin
-@mixin grid-container {
-  display: grid;
-  grid-template-columns: repeat($column-count, $column-width);
-  grid-gap: $gutter-width;
+// Create a function to calculate the responsive grid
+@function calculate-columns($columns) {
+    @return min(($columns * $min-column-width), 100%);
 }
 
-// Apply grid container mixin
-.container {
-  @include grid-container;
-  margin: 0 auto;
-  max-width: $container-width;
+// Apply the responsive grid styles
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax($min-column-width, 1fr));
+
+    // Adjust the number of columns based on screen size
+    @media screen and (min-width: $min-column-width * $max-columns) {
+        grid-template-columns: repeat($max-columns, 1fr);
+    }
 }
 
-// Example usage for grid items
 .grid-item {
-  // Additional styling for grid items
+    padding: 20px;
+    border: 1px solid #ccc;
 }
-
 ```
+
+
 
 # Scripting in SASS
 
@@ -651,6 +649,38 @@ Define a custom SASS function that uses a for loop in order to slightly decrease
 
 ![pixil-frame-0 (1)](https://github.com/Ant11234/student/assets/40652645/509214d6-bf1a-40f7-9028-cfd4b9f212da)
 
+
+```java
+@function adjustColor($color, $saturation, $brightness) {
+  $hslColor: rgbtohsl($color);
+  $adjustedHSL: adjust-hue($hslColor, 0deg);
+  $adjustedHSL: change-saturation($adjustedHSL, $saturation);
+  $adjustedHSL: lighten($adjustedHSL, $brightness);
+  @return hsltorgb($adjustedHSL);
+}
+
+$baseColor: #3498db;
+
+// 3x3 array
+$arrayColors: ();
+@for $row from 1 through 3 {
+  $rowColors: ();
+  @for $col from 1 through 3 {
+    $saturation: 10% * (4 - $row);
+    $brightness: 10% * $col;
+    $rowColors: append($rowColors, adjustColor($baseColor, $saturation, $brightness));
+  }
+  $arrayColors: append($arrayColors, $rowColors);
+}
+
+@for $i from 1 through 9 {
+  .cell:nth-child(#{$i}) {
+    background-color: nth(nth($arrayColors, ceil($i / 3)), $i % 3);
+  }
+}
+
+```
+
 # Extending & Inheritance
 
 
@@ -760,8 +790,53 @@ In this example, the @debug statement will print a message to the console during
 ### Popcorn Hack 1:
 Try changing the primary color to an invalid value (e.g., 'red') and observe the @error message. Then, correct it to a valid color.
 
+
+```java
+$primary-color: 'blue'; 
+
+@mixin validate-color($color) {
+  @if type-of($color) != color {
+    @error "invalid color: #{$color}. pls provide valid color.";
+  }
+}
+
+.element {
+  background-color: $primary-color;
+  @include validate-color($primary-color);
+}
+```
+
 ### Popcorn Hack 2:
 Modify the base font size and observe the @debug message. Try different font sizes and see how it affects the calculated line height.
+
+
+```java
+$font-size-base: 16px; // Try changing this value to observe @debug output
+
+@function calculate-line-height($font-size) {
+  @debug "Calculating line height for font size: #{$font-size}px";
+
+  $line-height-ratio: 1.5; 
+  $line-height: $font-size * $line-height-ratio;
+
+  @return $line-height;
+}
+body {
+  font-size: $font-size-base;
+  line-height: calculate-line-height($font-size-base);
+}
+```
+
+
+```java
+%%html
+<style>
+  body {
+    font-size: 16px;
+    line-height: 24px; /* Calculated line height */
+  }
+</style>
+```
 
 # Hacks
 
