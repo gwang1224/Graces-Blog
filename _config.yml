@@ -3,9 +3,10 @@ description: "August 2023 to June 2024"
 owner_name: Grace Wang
 github_username: gwang1224
 baseurl: "/Graces-Blog"
-#remote_theme: pages-themes/midnight@v0.2.0
+# remote_theme: pages-themes/midnight@v0.2.0
 # remote_theme: pages-themes/dinky@v0.2.0
 remote_theme: pages-themes/minimal@v0.2.0
+# remote_theme: pages-themes/minima@v2.5.1
 # remote_theme: pages-themes/hacker@v0.2.0
 # remote_theme: pages-themes/cayman@v0.2.0
 # remote_theme: pages-themes/time-machine@v0.2.0
