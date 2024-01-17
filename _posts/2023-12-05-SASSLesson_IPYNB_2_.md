@@ -5,7 +5,7 @@ layout: default
 title: SASS Lesson
 description: Entire SASS Lesson.
 type: hacks
-courses: {'labnotebook': {'week': 15}}
+courses: {'labnotebook': {'week': 14}}
 ---
 
 # Introduction to SASS
