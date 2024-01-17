@@ -1,17 +1,16 @@
 ---
 title: Q35 Iterative binarySearch of 1D int array
 layout: default
-description: Q35 Iterative binarySearch of 1D int array (purpose, speed, accuracy) BABDAAD
+description: Q35 Iterative binarySearch of 1D int array (purpose, speed, accuracy)
 ---
 
 Question 35:
 
 Directions: Select the choice that best fits each statement. The following question(s) refer to the following information
-
 Consider the following binarySearch method. The method correctly performs a binary search.
 
 
-```Java
+```java
 // Precondition: data is sorted in increasing order
 
 public static int binarySearch(int[] data, int target)
@@ -38,7 +37,7 @@ public static int binarySearch(int[] data, int target)
 ```
 
 
-```Java
+```java
 int[] values = {1, 2, 3, 4, 5, 8, 8, 8};
 int target = 8;
 ```
@@ -59,7 +58,7 @@ Java code for iterative binary search is generally the same...
 Here is an example
 
 
-```Java
+```java
 public static int binarySearchExample(int[] intArray, int lowPosition, int highPosition, int target){
     int midPosition;
 
@@ -104,7 +103,7 @@ Since data[5] is 8, 5 is returned.
 When we run the code in a notebook, we get 5.
 
 
-```Java
+```java
 binarySearch(values, target)
 ```
 
