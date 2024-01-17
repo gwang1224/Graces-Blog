@@ -4,8 +4,8 @@ comments: False
 layout: default
 title: SASS Lesson
 description: Entire SASS Lesson.
-type: plans
-courses: {'labnotebook': {'week': 5}}
+type: hacks
+courses: {'labnotebook': {'week': 15}}
 ---
 
 # Introduction to SASS

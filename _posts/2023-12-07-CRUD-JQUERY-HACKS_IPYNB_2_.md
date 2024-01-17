@@ -4,7 +4,8 @@ layout: default
 description: hacks for CRUD with JQUERY
 author: Tay K., Emaad M., Ethan T., Finn C., Theo H., Justin N.
 comments: True
-courses: {'labnotebook': {'week': 5}}
+courses: {'labnotebook': {'week': 15}}
+type: hacks
 ---
 
 # Directions

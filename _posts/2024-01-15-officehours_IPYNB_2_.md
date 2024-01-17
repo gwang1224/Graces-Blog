@@ -2,6 +2,8 @@
 title: Q35 Iterative binarySearch of 1D int array
 layout: default
 description: Q35 Iterative binarySearch of 1D int array (purpose, speed, accuracy)
+type: notes
+courses: {'labnotebook': {'week': 17}}
 ---
 
 Question 35:

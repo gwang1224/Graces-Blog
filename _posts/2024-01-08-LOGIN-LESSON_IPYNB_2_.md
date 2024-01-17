@@ -4,8 +4,8 @@ title: Login Lesson
 description: SASS + JavaScript Login/Signup pages
 author: Finn C, Theo H, Justin N
 permalink: lesson
-type: hacks
-courses: {'labnotebook': {'week': 5}}
+type: notes
+courses: {'labnotebook': {'week': 17}}
 ---
 
 # Login and Sign up Page Lesson
