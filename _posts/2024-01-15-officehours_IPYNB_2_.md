@@ -6,6 +6,8 @@ type: notes
 courses: {'labnotebook': {'week': 17}}
 ---
 
+# Q35 Iterative binarySearch of 1D int array
+
 Question 35:
 
 Directions: Select the choice that best fits each statement. The following question(s) refer to the following information
@@ -252,3 +254,5 @@ C. lowPosition = midPosition - 1;
 
 D. lowPosition = midPosition + 1;
 
+
+<summary>Answers: BABDAAD</summary>
