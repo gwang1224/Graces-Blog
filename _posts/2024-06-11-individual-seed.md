@@ -5,6 +5,8 @@ description:
 type: notes
 comment: true
 ---
+# Seed (Individual)
+
 
 ## Grade Trimester 2: 94%
 
@@ -42,5 +44,5 @@ Enable users to view their top scores both on their profile page and the leaderb
 3. Phishing game ([link](https://github.com/GAVE-CSA/GAVE-frontend/commit/b6e0836f6ff88606eb1a42e98d835941e4d68ad0))
 
 
-### My Blog [link](https://gwang1224.github.io/Graces-Blog/blogs)
+### My Blog: [link](https://gwang1224.github.io/Graces-Blog/blogs)
 
