@@ -16,6 +16,7 @@ Team Triangles:
 3. Vivian, Aliya, Justin
 
 [Team Continuation](https://github.com/Codemaxxers/Issues/issues/42)
+
 [Merging Plan](https://github.com/Codemaxxers/Issues/issues/45)
 
 ## Individual Progress
