@@ -34,3 +34,7 @@ Team Triangles:
 1. testing logout: works in deleting cookie but doesn't work when implemented on front end ([link](https://github.com/GAVE-CSA/GAVE-backend-v3/commit/bd4b5247fb6804993c6fd4f1f73ca09c1abce32e))
 2. creating a walk through tutorial ([link](https://github.com/GAVE-CSA/GAVE-frontend/commit/d87e6cd62c169f89e0ef7ffea1117a3776f2a036))
 3. Phishing game ([link](https://github.com/GAVE-CSA/GAVE-frontend/commit/b6e0836f6ff88606eb1a42e98d835941e4d68ad0))
+
+
+### My Blog [link](https://gwang1224.github.io/Graces-Blog/blogs)
+
