@@ -29,6 +29,11 @@ Team Triangles:
 
 ![](https://cdn.discordapp.com/attachments/879557685253664768/1215023302616023090/Screenshot_2024-03-06_at_11.48.25_AM.png?ex=65fb3da1&is=65e8c8a1&hm=f513c8f2be632c3f9967f145bf5011a6ffbc7f242391a2d3e3ab356188c77ddc&)
 
+
+This trimester, I will work on enhancing the enjoyment of the games by incorporating engaging elements. For instance, introduce a level system to the spot-the-difference game and incorporate additional visuals, including animations. We will implement this with the codemaxxers so that we can create levels to the game and create incentive to learn.
+
+Enable users to view their top scores both on their profile page and the leaderboard. Consider displaying each user’s game session history to illustrate progress and foster motivation. Our crossover group has already implemented this. We also want to ensure the leaderboard is seamlessly connected with users, enabling post requests to function effectively. Implement a feature to display users’ names instead of their IDs for better identification.
+
 ### Key Commits
 
 1. testing logout: works in deleting cookie but doesn't work when implemented on front end ([link](https://github.com/GAVE-CSA/GAVE-backend-v3/commit/bd4b5247fb6804993c6fd4f1f73ca09c1abce32e))
