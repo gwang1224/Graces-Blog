@@ -27,7 +27,7 @@ comment: true
 
 6.Press play on frontend, observe stop inside of backend
 
-![](https://cdn.discordapp.com/attachments/879557685253664768/1215358102300262470/Screenshot_2024-03-07_at_9.56.03_AM.png?ex=65fc756f&is=65ea006f&hm=44af94d4e6583afb5f2129037861dd67dab26c8420b17c255ba19d571e28f646&)
+![](https://cdn.discordapp.com/attachments/879557685253664768/1215358531247669288/Screenshot_2024-03-07_at_10.00.48_AM.png?ex=65fc75d6&is=65ea00d6&hm=e62a1ecc8e31502f324a50367d9313879ee249573556e237c70f53df007f02d5&)
 
 7.Press step over on backend until you have obtained data from database, screen capture HashMap or other data Object
 
