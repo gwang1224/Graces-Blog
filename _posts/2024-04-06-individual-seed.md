@@ -30,6 +30,7 @@ Team Triangles:
 | FRQ 4 | [link](https://gwang1224.github.io/Graces-Blog/2024/02/24/2015frq4_IPYNB_2_.html) | 
 | Issue | [link](https://github.com/gwang1224/Graces-Blog/issues/7) |
 
+
 ![](https://cdn.discordapp.com/attachments/879557685253664768/1215023302616023090/Screenshot_2024-03-06_at_11.48.25_AM.png?ex=65fb3da1&is=65e8c8a1&hm=f513c8f2be632c3f9967f145bf5011a6ffbc7f242391a2d3e3ab356188c77ddc&)
 
 
