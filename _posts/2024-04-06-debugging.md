@@ -34,5 +34,3 @@ comment: true
 ![](https://cdn.discordapp.com/attachments/879557685253664768/1215358102854180964/Screenshot_2024-03-07_at_9.57.30_AM.png?ex=65fc756f&is=65ea006f&hm=5193c0224e70770ca8d21f741404be06b960781feeed777f744b835467f00bee&)
 
 8.Press play button to end backend debugging session.
-9.Return to frontend debug session
-10.Step in until you see data, screen capture capturing break point and Data.
