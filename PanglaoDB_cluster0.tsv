@@ -1,0 +1,20 @@
+Species	Gene	Study/sample identifier	Cluster Index	Sampled Tissue	Inferred Cell Type	Rank
+Homo_sapiens	CCL5	SRA719952_SRS3407249	12	NK cells	Gamma delta T cells	6
+Homo_sapiens	CCL5	SRA719952_SRS3407249	2	NK cells	Gamma delta T cells	7
+Homo_sapiens	CCL5	SRA719952_SRS3407249	11	NK cells	NK cells	7
+Homo_sapiens	CCL5	SRA719952_SRS3407249	13	NK cells	Gamma delta T cells	7
+Homo_sapiens	CCL5	SRA719952_SRS3407249	14	NK cells	Gamma delta T cells	7
+Homo_sapiens	CCL5	SRA728025_SRS3454423	7	Colon	T cells	7
+Homo_sapiens	CCL5	SRA728025_SRS3454428	16	Colon	NK cells	7
+Homo_sapiens	CCL5	SRA719952_SRS3407249	0	NK cells	Gamma delta T cells	8
+Homo_sapiens	CCL5	SRA719952_SRS3407249	4	NK cells	NK cells	8
+Homo_sapiens	CCL5	SRA719952_SRS3407249	8	NK cells	Gamma delta T cells	8
+Homo_sapiens	CCL5	SRA728025_SRS3454425	9	Colon	T cells	9
+Homo_sapiens	CCL5	SRA713577_SRS3363004	11	Peripheral blood mononuclear cells	Platelets	10
+Homo_sapiens	CCL5	SRA719952_SRS3407249	17	NK cells	Gamma delta T cells	10
+Homo_sapiens	CCL5	SRA728025_SRS3454430	13	Colon	T cells	11
+Homo_sapiens	CCL5	SRA728025_SRS3454426	9	Colon	T cells	12
+Homo_sapiens	CCL5	SRA878024_SRS4660846	7	Lungs	Unknown	13
+Homo_sapiens	CCL5	SRA779509_SRS3805260	9	Bone marrow	NK cells	14
+Homo_sapiens	CCL5	SRA779509_SRS3805265	1	Bone marrow	NK cells	14
+Homo_sapiens	CCL5	SRA728025_SRS3454422	8	Colon	T cells	14
