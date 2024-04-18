@@ -18,3 +18,186 @@ Homo_sapiens	CCL5	SRA878024_SRS4660846	7	Lungs	Unknown	13
 Homo_sapiens	CCL5	SRA779509_SRS3805260	9	Bone marrow	NK cells	14
 Homo_sapiens	CCL5	SRA779509_SRS3805265	1	Bone marrow	NK cells	14
 Homo_sapiens	CCL5	SRA728025_SRS3454422	8	Colon	T cells	14
+Homo_sapiens	DNAJC15	SRA710104_SRS3334253	9	Adipose	Unknown	207
+Homo_sapiens	DNAJC15	SRA645804_SRS2823412	12	Testis	Germ cells	209
+Homo_sapiens	DNAJC15	SRA710104_SRS3334253	7	Adipose	Adipocytes	215
+Homo_sapiens	DNAJC15	SRA645804_SRS3572594	3	Testis	Germ cells	225
+Homo_sapiens	DNAJC15	SRA710104_SRS3334253	1	Adipose	Unknown	229
+Homo_sapiens	DNAJC15	SRA710104_SRS3334253	3	Adipose	Unknown	231
+Homo_sapiens	DNAJC15	SRA667709_SRS3065427	10	Testicle	Germ cells	236
+Homo_sapiens	DNAJC15	SRA645804_SRS2823408	19	Testis	Germ cells	236
+Homo_sapiens	DNAJC15	SRA645804_SRS2823412	8	Testis	Germ cells	244
+Homo_sapiens	DNAJC15	SRA710104_SRS3334253	4	Adipose	Fibroblasts	249
+Homo_sapiens	DNAJC15	SRA710104_SRS3334253	2	Adipose	Unknown	257
+Homo_sapiens	DNAJC15	SRA645804_SRS2823407	2	Testis	Germ cells	263
+Homo_sapiens	DNAJC15	SRA710104_SRS3334253	10	Adipose	Fibroblasts	267
+Homo_sapiens	DNAJC15	SRA710104_SRS3334253	11	Adipose	Fibroblasts	269
+Homo_sapiens	DNAJC15	SRA645804_SRS2823410	4	Testis	Germ cells	270
+Homo_sapiens	DNAJC15	SRA645804_SRS2823411	3	Testis	Germ cells	277
+Homo_sapiens	DNAJC15	SRA713577_SRS3363004	11	Peripheral blood mononuclear cells	Platelets	281
+Homo_sapiens	DNAJC15	SRA645804_SRS2823411	13	Testis	Germ cells	283
+Homo_sapiens	DNAJC15	SRA645804_SRS2823410	7	Testis	Germ cells	284
+Homo_sapiens	DNAJC15	SRA645804_SRS2823410	9	Testis	Germ cells	284
+Homo_sapiens	DNAJC15	SRA645804_SRS2823412	2	Testis	Germ cells	286
+Homo_sapiens	DNAJC15	SRA645804_SRS2823410	12	Testis	Germ cells	288
+Homo_sapiens	DNAJC15	SRA645804_SRS2823407	6	Testis	Germ cells	291
+Homo_sapiens	DNAJC15	SRA645804_SRS2823410	3	Testis	Germ cells	292
+Homo_sapiens	DNAJC15	SRA645804_SRS2823410	5	Testis	Germ cells	292
+Homo_sapiens	DNAJC15	SRA716608_SRS3391631	9	Liver	Cholangiocytes	293
+Homo_sapiens	DNAJC15	SRA645804_SRS2823409	5	Testis	Germ cells	293
+Homo_sapiens	DNAJC15	SRA645804_SRS2823412	11	Testis	Germ cells	294
+Homo_sapiens	DNAJC15	SRA661790_SRS2995084	9	Monocyte-derived macrophages	Langerhans cells	294
+Homo_sapiens	DNAJC15	SRA645804_SRS2823412	3	Testis	Germ cells	295
+Homo_sapiens	DNAJC15	SRA645804_SRS2823407	12	Testis	Germ cells	298
+Homo_sapiens	DNAJC15	SRA645804_SRS2823407	9	Testis	Germ cells	299
+Homo_sapiens	DNAJC15	SRA645804_SRS2823409	14	Testis	Germ cells	301
+Homo_sapiens	DNAJC15	SRA645804_SRS2823410	0	Testis	Germ cells	304
+Homo_sapiens	DNAJC15	SRA645804_SRS2823408	7	Testis	Germ cells	305
+Homo_sapiens	DNAJC15	SRA667709_SRS3065431	11	Testicle	Germ cells	307
+Homo_sapiens	DNAJC15	SRA667709_SRS3065429	6	Testicle	Germ cells	308
+Homo_sapiens	DNAJC15	SRA645804_SRS2823411	4	Testis	Germ cells	310
+Homo_sapiens	DNAJC15	SRA645804_SRS2823412	4	Testis	Germ cells	317
+Homo_sapiens	DNAJC15	SRA667709_SRS3065430	8	Testicle	Germ cells	318
+Homo_sapiens	DNAJC15	SRA645804_SRS3572594	7	Testis	Germ cells	319
+Homo_sapiens	DNAJC15	SRA645804_SRS2823410	1	Testis	Germ cells	320
+Homo_sapiens	DNAJC15	SRA749327_SRS3693912	7	PBMC	Unknown	323
+Homo_sapiens	DNAJC15	SRA645804_SRS2823409	2	Testis	Germ cells	326
+Homo_sapiens	DNAJC15	SRA645804_SRS3572594	4	Testis	Germ cells	329
+Homo_sapiens	DNAJC15	SRA710104_SRS3334253	13	Adipose	Adipocytes	332
+Homo_sapiens	DNAJC15	SRA740174_SRS3548780	9	Bone marrow	Unknown	336
+Homo_sapiens	DNAJC15	SRA826293_SRS4181128	7	Testis	Unknown	337
+Homo_sapiens	DNAJC15	SRA667709_SRS3065429	13	Testicle	Germ cells	338
+Homo_sapiens	DNAJC15	SRA645804_SRS2823410	6	Testis	Germ cells	339
+Homo_sapiens	DNAJC15	SRA667709_SRS3065429	14	Testicle	Germ cells	344
+Homo_sapiens	DNAJC15	SRA826293_SRS4181130	2	Testis	Germ cells	344
+Homo_sapiens	DNAJC15	SRA645804_SRS2823407	11	Testis	Germ cells	347
+Homo_sapiens	DNAJC15	SRA667709_SRS3065431	10	Testicle	Germ cells	349
+Homo_sapiens	DNAJC15	SRA645804_SRS2823406	6	Testis	Germ cells	350
+Homo_sapiens	DNAJC15	SRA645804_SRS2823408	12	Testis	Germ cells	352
+Homo_sapiens	DNAJC15	SRA645804_SRS2823410	18	Testis	Peritubular myoid cells	354
+Homo_sapiens	DNAJC15	SRA645804_SRS2823412	7	Testis	Germ cells	354
+Homo_sapiens	DNAJC15	SRA645804_SRS2823405	9	Testis	Germ cells	359
+Homo_sapiens	DNAJC15	SRA645804_SRS3572594	11	Testis	Germ cells	361
+Homo_sapiens	DNAJC15	SRA645804_SRS2823412	1	Testis	Germ cells	362
+Homo_sapiens	DNAJC15	SRA826293_SRS4181130	3	Testis	Germ cells	362
+Homo_sapiens	DNAJC15	SRA728025_SRS3454427	15	Colon	Cholangiocytes	363
+Homo_sapiens	DNAJC15	SRA645804_SRS2823408	1	Testis	Germ cells	366
+Homo_sapiens	DNAJC15	SRA645804_SRS2823410	2	Testis	Germ cells	366
+Homo_sapiens	DNAJC15	SRA826293_SRS4181128	5	Testis	Germ cells	366
+Homo_sapiens	DNAJC15	SRA645804_SRS2823408	2	Testis	Germ cells	367
+Homo_sapiens	DNAJC15	SRA667709_SRS3065427	8	Testicle	Germ cells	372
+Homo_sapiens	DNAJC15	SRA645804_SRS2823407	8	Testis	Germ cells	372
+Homo_sapiens	DNAJC15	SRA667709_SRS3065428	9	Testicle	Germ cells	374
+Homo_sapiens	DNAJC15	SRA645804_SRS2823409	12	Testis	Germ cells	379
+Homo_sapiens	DNAJC15	SRA667709_SRS3065430	18	Testicle	Germ cells	383
+Homo_sapiens	DNAJC15	SRA645804_SRS2823408	0	Testis	Germ cells	388
+Homo_sapiens	DNAJC15	SRA645804_SRS3572594	1	Testis	Germ cells	389
+Homo_sapiens	DNAJC15	SRA645804_SRS2823404	5	Testis	Germ cells	391
+Homo_sapiens	DNAJC15	SRA645804_SRS3572594	2	Testis	Germ cells	391
+Homo_sapiens	DNAJC15	SRA667709_SRS3065426	14	Testicle	Germ cells	400
+Homo_sapiens	DNAJC15	SRA667709_SRS3065431	16	Testicle	Germ cells	404
+Homo_sapiens	DNAJC15	SRA667709_SRS3065431	7	Testicle	Germ cells	406
+Homo_sapiens	DNAJC15	SRA645804_SRS2823410	11	Testis	Germ cells	408
+Homo_sapiens	DNAJC15	SRA826293_SRS4181130	12	Testis	Germ cells	411
+Homo_sapiens	DNAJC15	SRA645804_SRS2823404	7	Testis	Germ cells	412
+Homo_sapiens	DNAJC15	SRA645804_SRS2823404	0	Testis	Germ cells	414
+Homo_sapiens	DNAJC15	SRA645804_SRS2823412	5	Testis	Germ cells	420
+Homo_sapiens	DNAJC15	SRA826293_SRS4181127	7	Testis	Germ cells	420
+Homo_sapiens	DNAJC15	SRA667709_SRS3065426	8	Testicle	Germ cells	421
+Homo_sapiens	DNAJC15	SRA767234_SRS3741870	9	Tonsil CD14+ cells	Dendritic cells	421
+Homo_sapiens	DNAJC15	SRA645804_SRS2823407	16	Testis	Germ cells	426
+Homo_sapiens	DNAJC15	SRA645804_SRS2823404	4	Testis	Germ cells	427
+Homo_sapiens	DNAJC15	SRA645804_SRS2823410	16	Testis	Germ cells	428
+Homo_sapiens	DNAJC15	SRA645804_SRS3572594	6	Testis	Germ cells	429
+Homo_sapiens	DNAJC15	SRA645804_SRS2823406	4	Testis	Germ cells	430
+Homo_sapiens	DNAJC15	SRA826293_SRS4181128	4	Testis	Germ cells	436
+Homo_sapiens	DNAJC15	SRA645804_SRS2823406	1	Testis	Germ cells	437
+Homo_sapiens	DNAJC15	SRA711898_SRS3349280	3	Tonsil	Dendritic cells	438
+Homo_sapiens	DNAJC15	SRA728025_SRS3454428	14	Colon	Cholangiocytes	439
+Homo_sapiens	DNAJC15	SRA645804_SRS2823409	3	Testis	Germ cells	441
+Homo_sapiens	DNAJC15	SRA645804_SRS3572594	5	Testis	Germ cells	441
+Homo_sapiens	DNAJC15	SRA728025_SRS3454430	9	Colon	Epithelial cells	441
+Homo_sapiens	DNAJC15	SRA779509_SRS3805253	16	Bone marrow	Plasma cells	442
+Homo_sapiens	DNAJC15	SRA667709_SRS3065429	8	Testicle	Germ cells	442
+Homo_sapiens	DNAJC15	SRA645804_SRS2823405	7	Testis	Unknown	442
+Homo_sapiens	DNAJC15	SRA645804_SRS2823411	9	Testis	Unknown	445
+Homo_sapiens	DNAJC15	SRA645804_SRS2823409	0	Testis	Germ cells	449
+Homo_sapiens	DNAJC15	SRA661790_SRS2995084	6	Monocyte-derived macrophages	Langerhans cells	452
+Homo_sapiens	DNAJC15	SRA645804_SRS2823405	0	Testis	Germ cells	455
+Homo_sapiens	DNAJC15	SRA701877_SRS3279688	4	Pancreatic islets	Acinar cells	457
+Homo_sapiens	DNAJC15	SRA667709_SRS3065428	10	Testicle	Germ cells	459
+Homo_sapiens	DNAJC15	SRA728025_SRS3454424	10	Colon	Cholangiocytes	464
+Homo_sapiens	DNAJC15	SRA645804_SRS2823411	5	Testis	Germ cells	469
+Homo_sapiens	DNAJC15	SRA645804_SRS2823404	3	Testis	Germ cells	470
+Homo_sapiens	DNAJC15	SRA749327_SRS3693913	10	PBMC	Dendritic cells	474
+Homo_sapiens	DNAJC15	SRA826293_SRS4181128	10	Testis	Germ cells	474
+Homo_sapiens	DNAJC15	SRA701877_SRS3279686	11	Pancreatic islets	Unknown	476
+Homo_sapiens	DNAJC15	SRA645804_SRS2823406	2	Testis	Germ cells	476
+Homo_sapiens	DNAJC15	SRA826293_SRS4181127	5	Testis	Germ cells	478
+Homo_sapiens	DNAJC15	SRA645804_SRS2823404	8	Testis	Germ cells	485
+Homo_sapiens	DNAJC15	SRA645804_SRS2823406	3	Testis	Germ cells	486
+Homo_sapiens	DNAJC15	SRA779509_SRS3805248	11	Bone marrow	Erythroid-like and erythroid precursor cells	487
+Homo_sapiens	DNAJC15	SRA645804_SRS2823408	20	Testis	Peritubular myoid cells	488
+Homo_sapiens	DNAJC15	SRA701877_SRS3279691	10	Pancreatic islets	Acinar cells	490
+Homo_sapiens	DNAJC15	SRA728025_SRS3454430	12	Colon	Enterocytes	491
+Homo_sapiens	DNAJC15	SRA645804_SRS2823405	6	Testis	Unknown	494
+Homo_sapiens	DNAJC15	SRA711898_SRS3349280	11	Tonsil	Dendritic cells	497
+Homo_sapiens	DNAJC15	SRA645804_SRS2823405	5	Testis	Unknown	498
+Homo_sapiens	DNAJC15	SRA645804_SRS2823410	10	Testis	Germ cells	499
+Homo_sapiens	DNAJC15	SRA645804_SRS2823404	1	Testis	Germ cells	500
+Homo_sapiens	DNAJC15	SRA711898_SRS3349280	8	Tonsil	Dendritic cells	501
+Homo_sapiens	DNAJC15	SRA645804_SRS2823406	0	Testis	Germ cells	502
+Homo_sapiens	DNAJC15	SRA767234_SRS3741870	12	Tonsil CD14+ cells	Dendritic cells	504
+Homo_sapiens	DNAJC15	SRA667709_SRS3065430	7	Testicle	Germ cells	506
+Homo_sapiens	DNAJC15	SRA728025_SRS3454427	9	Colon	Epithelial cells	510
+Homo_sapiens	DNAJC15	SRA728025_SRS3454430	11	Colon	Epithelial cells	510
+Homo_sapiens	DNAJC15	SRA645804_SRS2823404	2	Testis	Germ cells	511
+Homo_sapiens	DNAJC15	SRA716608_SRS3391630	5	Liver	Hepatocytes	513
+Homo_sapiens	DNAJC15	SRA826293_SRS4181130	10	Testis	Germ cells	514
+Homo_sapiens	DNAJC15	SRA779509_SRS3805247	15	Bone marrow	Langerhans cells	518
+Homo_sapiens	DNAJC15	SRA749327_SRS3693911	9	PBMC	Dendritic cells	522
+Homo_sapiens	DNAJC15	SRA645804_SRS2823405	2	Testis	Germ cells	523
+Homo_sapiens	DNAJC15	SRA645804_SRS3572594	8	Testis	Germ cells	525
+Homo_sapiens	DNAJC15	SRA826293_SRS4181128	17	Testis	Plasma cells	527
+Homo_sapiens	DNAJC15	SRA645804_SRS2823408	13	Testis	Germ cells	529
+Homo_sapiens	DNAJC15	SRA728025_SRS3454428	10	Colon	Epithelial cells	529
+Homo_sapiens	DNAJC15	SRA645804_SRS2823408	11	Testis	Germ cells	530
+Homo_sapiens	DNAJC15	SRA779509_SRS3805261	11	Bone marrow	Dendritic cells	532
+Homo_sapiens	DNAJC15	SRA716608_SRS3391633	12	Liver	Plasma cells	532
+Homo_sapiens	DNAJC15	SRA701877_SRS3279694	9	Pancreatic islets	Unknown	538
+Homo_sapiens	DNAJC15	SRA701877_SRS3279691	8	Pancreatic islets	Ductal cells	539
+Homo_sapiens	DNAJC15	SRA749327_SRS3693910	9	PBMC	Dendritic cells	542
+Homo_sapiens	DNAJC15	SRA701877_SRS3279686	13	Pancreatic islets	Pancreatic stellate cells	543
+Homo_sapiens	DNAJC15	SRA645804_SRS2823405	3	Testis	Germ cells	543
+Homo_sapiens	DNAJC15	SRA728025_SRS3454427	8	Colon	Cholangiocytes	545
+Homo_sapiens	DNAJC15	SRA667709_SRS3065427	13	Testicle	Germ cells	546
+Homo_sapiens	DNAJC15	SRA728025_SRS3454424	3	Colon	Cholangiocytes	546
+Homo_sapiens	DNAJC15	SRA779509_SRS3805248	13	Bone marrow	Dendritic cells	547
+Homo_sapiens	DNAJC15	SRA660949_SRS2990318	3	Umbilical cord blood	Unknown	549
+Homo_sapiens	DNAJC15	SRA645804_SRS2823404	6	Testis	Germ cells	550
+Homo_sapiens	DNAJC15	SRA826293_SRS4181127	16	Testis	Unknown	551
+Homo_sapiens	DNAJC15	SRA728025_SRS3454430	15	Colon	Cholangiocytes	558
+Homo_sapiens	DNAJC15	SRA779509_SRS3805253	15	Bone marrow	Unknown	559
+Homo_sapiens	DNAJC15	SRA779509_SRS3805263	19	Bone marrow	T cells	560
+Homo_sapiens	DNAJC15	SRA779509_SRS3805269	11	Bone marrow	Erythroid-like and erythroid precursor cells	561
+Homo_sapiens	DNAJC15	SRA667709_SRS3065426	4	Testicle	Germ cells	564
+Homo_sapiens	DNAJC15	SRA645804_SRS3572594	10	Testis	Germ cells	567
+Homo_sapiens	DNAJC15	SRA645804_SRS2823407	3	Testis	Germ cells	568
+Homo_sapiens	DNAJC15	SRA711898_SRS3349280	14	Tonsil	Dendritic cells	570
+Homo_sapiens	DNAJC15	SRA660949_SRS2990318	5	Umbilical cord blood	Unknown	574
+Homo_sapiens	DNAJC15	SRA716608_SRS3391630	2	Liver	Hepatocytes	575
+Homo_sapiens	DNAJC15	SRA779509_SRS3805263	11	Bone marrow	Erythroid-like and erythroid precursor cells	578
+Homo_sapiens	DNAJC15	SRA661790_SRS2995083	7	Monocyte-derived macrophages	Langerhans cells	584
+Homo_sapiens	DNAJC15	SRA645804_SRS2823408	4	Testis	Germ cells	585
+Homo_sapiens	DNAJC15	SRA701877_SRS3279692	4	Pancreatic islets	Acinar cells	588
+Homo_sapiens	DNAJC15	SRA660949_SRS2990318	1	Umbilical cord blood	Unknown	590
+Homo_sapiens	DNAJC15	SRA645804_SRS2823405	4	Testis	Germ cells	596
+Homo_sapiens	DNAJC15	SRA779509_SRS3805268	14	Bone marrow	Dendritic cells	597
+Homo_sapiens	DNAJC15	SRA711898_SRS3349280	2	Tonsil	Dendritic cells	601
+Homo_sapiens	DNAJC15	SRA703206_SRS3296614	5	Colon (Ulcerative Colitis)	Fibroblasts	601
+Homo_sapiens	DNAJC15	SRA645804_SRS2823412	6	Testis	Germ cells	601
+Homo_sapiens	DNAJC15	SRA703206_SRS3296614	18	Colon (Ulcerative Colitis)	Cholangiocytes	605
+Homo_sapiens	DNAJC15	SRA728025_SRS3454430	1	Colon	Enterocytes	605
+Homo_sapiens	DNAJC15	SRA701877_SRS3279694	3	Pancreatic islets	Pancreatic stellate cells	607
+Homo_sapiens	DNAJC15	SRA779509_SRS3805253	10	Bone marrow	Erythroid-like and erythroid precursor cells	610
+Homo_sapiens	DNAJC15	SRA645804_SRS2823407	15	Testis	Germ cells	612
