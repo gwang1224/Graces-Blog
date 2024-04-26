@@ -2,7 +2,7 @@
 title: Workshop 4 - Lesson on 2D Arrays and Traversing them
 description: Unit 8 of CB
 toc: True
-layout: post
+layout: default
 ---
 
 <h2>  8.1: Declaring + Initializing 2D Arrays; Determining their  </h2>
@@ -275,3 +275,6 @@ ColumnMajorIndexing.main(null)
 - Finding the max/min
     - Save the index of the extrema and in the inner loop have a comparison statement that determines that value
 
+
+Hacks:
+Finish FRQ from Friday, 2019 Q3
