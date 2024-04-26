@@ -1,7 +1,7 @@
 ---
 toc: True
 comments: True
-layout: notebook
+layout: default
 title: Unit 6.1 - 6.3 Focused on Arrays and Array Examination
 description: Covering Arrays (Unit 6.1-6.3)
 type: hacks
